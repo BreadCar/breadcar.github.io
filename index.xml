@@ -30,19 +30,11 @@
 </description>
         </item>
         <item>
-        <title>Archives</title>
-        <link>https://breadcar.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <title>占位符</title>
+        <link>https://breadcar.github.io/p/%E5%8D%A0%E4%BD%8D%E7%AC%A6/</link>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://breadcar.github.io/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://breadcar.github.io/p/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://breadcar.github.io/p/</guid>
+        <guid>https://breadcar.github.io/p/%E5%8D%A0%E4%BD%8D%E7%AC%A6/</guid>
         <description>&lt;p&gt;现在是2025年的一月八日。&lt;/p&gt;
 &lt;p&gt;这个下午我本来准备用来&lt;del&gt;预习&lt;/del&gt;复习后天考的工热，但是我已经坐在这里配置了三个小时的网站了。&lt;/p&gt;
 &lt;p&gt;所以我要先去预习，留一个占位符在这个表示这个站不是亖了。&lt;/p&gt;
@@ -50,6 +42,14 @@
 &lt;p&gt;之后会把公众号上的内容先搬过来，然后就主要在这边更新然后在公众号上发更新通知。&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://breadcar.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://breadcar.github.io/archives/</guid>
+        <description></description>
         </item>
         <item>
         <title>Links</title>
