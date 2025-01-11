@@ -7,7 +7,415 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>BreadCar All Rights Reserved.</copyright>
-        <lastBuildDate>Wed, 08 Jan 2025 17:17:15 +0800</lastBuildDate><atom:link href="https://breadcar.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Jan 2025 21:07:12 +0800</lastBuildDate><atom:link href="https://breadcar.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Theoretical_Mechanics_3</title>
+        <link>https://breadcar.github.io/p/theoretical_mechanics_3/</link>
+        <pubDate>Sat, 11 Jan 2025 21:07:12 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/theoretical_mechanics_3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Theoretical_Mechanics_2</title>
+        <link>https://breadcar.github.io/p/theoretical_mechanics_2/</link>
+        <pubDate>Sat, 11 Jan 2025 21:07:06 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/theoretical_mechanics_2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>理论力学（甲）Ⅰ 静力学知识整理</title>
+        <link>https://breadcar.github.io/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E9%9D%99%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</link>
+        <pubDate>Sat, 11 Jan 2025 21:06:53 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E9%9D%99%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;静力学公理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;力的平行四边形法则&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用在物体上同一点的两个力可以合成为一个合力，其力矢为这两个力矢的几何和。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;二力平衡条件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用在同一刚体上的两个力，使刚体平衡的必要充分条件为这两个力大小相等方向相反，且作用在同一直线上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加减力系平衡原理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在任意原有力系上加上或减去任意的平衡力系，与原力系对刚体的作用效果等效&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;推论1：力的可传性&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用在刚体上某点的力，可以沿着它的作用线移到刚体内的任意一点，并不改变该力对刚体的作用&lt;/li&gt;
+&lt;li&gt;由此可见，对刚体而言，力的作用点已被作用线代替。&lt;/li&gt;
+&lt;li&gt;刚体上力的三要素：力的大小、方向和作用线。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;推论2：三力平衡汇交定理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;刚体在三个力作用下平衡，若其中两个力的作用线交于一点，则第三个力的作用线必定通过该汇交点，且三个力位于同一平面内。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;作用力与反作用力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用力与反作用力总是同时存在，两个力大小相等、方向相反，沿着同一条直线，分别作用在两个相互作用的物体上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;刚化原理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;变形体在某一力系作用下处于平衡状态，如将此变化体刚化为刚体，其平衡状态保持不变。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;物体的受力分析&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;约束与约束力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自由体与非自由体&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;位移不受限制的物体称为自由体；位移受到限制的物体称为非自由体。&lt;/li&gt;
+&lt;li&gt;对非自由体的某些位移起到限制作用的周围物体称为约束。约束对非自由体的作用力为约束力，其方向必与该约束所能阻碍的位移方向相反。&lt;/li&gt;
+&lt;li&gt;在静力学中，约束和物体受的其他已知力（称主动力）组成平衡力系，可用平衡条件求出未知的约束力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;几种常见约束&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;光滑接触表面&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;约束力作用在接触点，方向沿接触表面的公法线指向被约束物体。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;柔软绳索、链条等&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作用在接触点，沿绳索背离被约束物体。&lt;/li&gt;
+&lt;li&gt;绕在轮子上时，对轮子的约束力沿轮缘的切线方向。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;铰链&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无论方向，其作用线必定垂直轴线并通过轴心&lt;/li&gt;
+&lt;li&gt;方向由主动力确定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;滚轴支座&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;约束力必垂直于支承面并通过铰链中心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;球铰链&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不能有任何位移但是可以绕球心任意转动。&lt;/li&gt;
+&lt;li&gt;约束力通过接触点与球心的一个空间法向约束力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;止推轴承&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;除了能限制轴的径向位移之外还能限制轴沿轴向的位移&lt;/li&gt;
+&lt;li&gt;其约束力有三个正交分量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;物体的受力分析与受力图&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;确定构件受了几个力、每个力的作用位置与方向&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;受力可分为主动力与被动力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将需要分析的物体从周围的物体中分离出来，然后将其上的所有作用力画出来。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画受力图一般分三步：取研究对象并画其简图、画主动力、画被动力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;二力构件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;只在两个力作用下平衡的构件&lt;/li&gt;
+&lt;li&gt;其所受两个力必定等大 反向 共线。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内力与外力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;系统间各个物体之间相互作用的力称为内力，其成对出现且对系统的作用效用相互抵消，在受力图上一般不画出&lt;/li&gt;
+&lt;li&gt;系统以外的物体对系统的作用力称外力，在受力图上画出。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;当铰链连接三个及以上构件时，将铰链分开需要考虑铰链位置。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;平面/空间力系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;汇交力系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;指各力的作用线汇交于一点的力系。&lt;/li&gt;
+&lt;li&gt;力系可以通过力多边形合成为一个合力，其合力的大小与方向等于各分力的矢量和，合力作用线通过汇交点。&lt;/li&gt;
+&lt;li&gt;汇交力系平衡的充分条件为该力系合力为零，即该力系的力多边形自行封闭。&lt;/li&gt;
+&lt;li&gt;汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$​$%CE%A3F_x%3D0$，$ΣF_y=0$​$%CE%A3F_y%3D0$，（$ΣF_z=0$​$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;力矩&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;指力对刚体的转动效应，定义使刚体逆时针旋转为正、顺时针旋转为负。&lt;/li&gt;
+&lt;li&gt;在平面上力对某一点的力矩为F与力臂h的乘积，在空间中力对某一轴线的力矩为F与到轴线距离h乘积。&lt;/li&gt;
+&lt;li&gt;平面合力矩：合力对平面内任意一点的矩等于所有各分力对该点矩的代数和；空间合力矩：各分力在xyz轴向上的合力矩的矢量和。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;力偶&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;两个大小相等、方向相反且不共线的平行力组成的力系。&lt;/li&gt;
+&lt;li&gt;力偶之间的垂直距离称为力偶臂，其所在平面称为力偶的作用面。&lt;/li&gt;
+&lt;li&gt;力偶只改变刚体的转动状态，因此只要力偶矩不变，可以任意改变力偶的位置、力偶臂、力偶的大小。&lt;/li&gt;
+&lt;li&gt;平面力偶系的合力偶矩为各力偶矩的代数和，平衡条件为合力偶为零；空间则为三轴上的合力偶为零。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;任意力系的简化&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过平移并补力偶的方式可以任意移动作用力，通过这种方式将任意力系化简为汇交力系再通过合力为零、合力矩为零求平衡条件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各坐标轴$ΣF_i = 0$​$%CE%A3F_i%3D0$；各平面$ΣM_i = 0$​$%CE%A3M_i%3D0$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;物体系的平衡·静定与超静定问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;称未知约束力等于或在平衡方程数目以下（可通过平衡方程解出的）为静定问题.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;平面简单桁架的内力计算&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;桁架的计算一般采取的几个假设&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各杆件均是直杆，各杆件在同一平面内&lt;/li&gt;
+&lt;li&gt;各杆件两端均为光滑铰链连接&lt;/li&gt;
+&lt;li&gt;所受的力都在节点上，且在桁架所在几何平面内&lt;/li&gt;
+&lt;li&gt;桁架杆件重量略去不计或平均分配在杆件两端的节点上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;几种计算方法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;节点法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;依次取出每一个节点进行分析，实际上采用的是平面汇交力系解法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;截面法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;适用于只要求计算几根杆件所受内力的情况。&lt;/li&gt;
+&lt;li&gt;选取一截面，假想将桁架截开，再考虑其平衡，求出被截杆件的内力。&lt;/li&gt;
+&lt;li&gt;实际采用的是平面任意力系的方法，所以被截的杆件一般不应超过三根。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;摩擦&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;滑动摩擦&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;静摩擦力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;表面粗糙的物体有相对滑动趋势时两者公切面内的阻碍现象。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;与相对滑动趋势反向，与主动力等大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最大静摩擦力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;超过此值，物体开始滑动。&lt;/li&gt;
+&lt;li&gt;$F_{smax}$=$f_sF_N$​&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;动摩擦力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;相对滑动时物体间的阻碍作用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$F_d=f F_N$​&lt;/li&gt;
+&lt;li&gt;一般而言$f$&amp;lt;$f_s$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;摩擦角&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;存在静滑动时，支撑面对物体的约束包括法向约束$F_N$和切向约束$F_s$. 将其合并，其合力称为全约束力&lt;/li&gt;
+&lt;li&gt;全约束力的作用线与接触处公法线的夹角φ$%CF%86$,称为摩擦角。其随物体逐渐接近临界状态而增大。&lt;/li&gt;
+&lt;li&gt;$tanφ = f_s$​&lt;/li&gt;
+&lt;li&gt;以临界状态的全约束线为母线，公法线为轴所作的圆锥称为摩擦锥。&lt;/li&gt;
+&lt;li&gt;当作用在物体上所有的主动力的合力落在摩擦锥内的时候，无论F$F$多大，都不会出现滑动现象，这种现象称为自锁现象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;滚动摩擦&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;筒形物体的在滚动/有滚动趋势时，其受到支承面的支撑力、$F_s$和一个滚动摩擦力偶$M_f$，其与主动力和$F_s$组成的力偶相平衡来防止产生滚动。&lt;/li&gt;
+&lt;li&gt;类似的，其也有最大滚动摩擦力偶矩$M_{max}$​,且在滚动过程中$M_f$始终接近M。&lt;/li&gt;
+&lt;li&gt;$M_{max}$与滚子半径无关，与支承面的法向约束力$F_N$成正比，$M_f=δF_N$​$M_f%3D%CE%B4F_N$.δ$%CE%B4$称为滚动摩擦系数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>机械动力！P1</title>
+        <link>https://breadcar.github.io/p/%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9Bp1/</link>
+        <pubDate>Sat, 11 Jan 2025 21:02:11 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9Bp1/</guid>
+        <description>&lt;p&gt;最近因为被朋友拉着玩mc而把之前浅尝辄止的机械动力重新捡起来玩，谁知道越玩越上头，眼睛一睁就是应力、眼睛一闭就是自动化，遂想拉更多人入坑，萌生了写一篇指北的想法。&lt;/p&gt;
+&lt;h3 id=&#34;1去你妈的我不要看你的&#34;&gt;1、去你妈的！我不要看你的！
+&lt;/h3&gt;&lt;p&gt;可供参考 适合新手入门的资料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;模组自带的&lt;strong&gt;思索&lt;/strong&gt;功能&lt;/p&gt;
+&lt;p&gt;清晰简明地告诉你每个元件的作用和交互方式。可视化、游戏内嵌的特殊优势使其成为新手上路的绝佳选择。在安装了JEI的情况下在JEI搜索框里搜索 &lt;strong&gt;@create&lt;/strong&gt;即可显示模组的全部物品，先将大部分组件的&lt;strong&gt;思索&lt;/strong&gt;看一遍即可对模组有大概的了解。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MCmod网站的机械动力百科 &lt;a class=&#34;link&#34; href=&#34;https://www.mcmod.cn/class/2021.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;机械动力 (Create) - MC百科|最大的Minecraft中文MOD百科&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;具有丰富详尽的资料和推荐的入门学习路线，中文环境友好。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;B站入门教学视频 &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1964y1K7mv/?share_source=copy_web&amp;amp;vd_source=49b1214556544268640d7652d90c8d1d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.bilibili.com/video/BV1964y1K7mv/?share_source=copy_web&amp;amp;vd_source=49b1214556544268640d7652d90c8d1d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相对有点老的版本，胜在视频形式和新手适用。对于基本概念和初步进阶讲解比较详尽，而且方便直接抄作业（虽然这个模组的乐趣在于亲手设计亲手搭建亲手debug，但是对新手而言成功建成比乐趣重要）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整合包【海上机械师 The Legend of 2900】&lt;/p&gt;
+&lt;p&gt;该整合包的任务书为没有新手引导的机械动力补全了这一部分，跟随引导和&lt;strong&gt;思索&lt;/strong&gt;，新手就能很快上手机械动力的大部分内容。同时该包还对矿物刷新和产出机制进行了一定修改，更利好机械动力路线，同时也大大缩短了前期收集资源的时间，可以说是相当好的上手选择了。整合包还附带了机械动力的部分附属模组以及瓦尔基里，亲手设计、造出并启动飞船的那一刻是机械动力强大魅力的完美体现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2新手入门&#34;&gt;2、新手入门
+&lt;/h3&gt;&lt;p&gt;机械动力并不像匠魂、tetra等模组那样具有游戏内的引导手册，纯新手一上来可能会不知所措。没有关系！刚开始和原版流程保持一致即可。在开始机械动力的部分之前，应该基本保证自己有足够的铜、铁、锌的盈余（各几组），至少两个粘液球（模组增加了通过黄绿色染料和小麦获取粘液球的配方）以及足够的海带（传送带需要，几组差不多就行）安山岩（大约铁储备的1/4至1/2即可），这样会有一个比较好的初期体验，能够有效避免机器造一半材料不够了的情况。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里提一个冷门的tips：一块闪长岩和一块圆石可以合成两块安山岩（原版配方），所以也许闪长岩也有一定开采价值（？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;a动力来源&#34;&gt;a.动力来源
+&lt;/h4&gt;&lt;p&gt;初期建议造水车。作为本模组除了手摇曲柄以外最便宜的动力源，水车提供256su（大型水车512su）应力以及16rpm的转速（大型水车8rpm），足以应付初期单个机器的需求；水车还具有相当友好的可叠加机制，一个水车无法满足需求时只要在原水车的杆上再连一个水车就能增加应力输出。甚至于，只要你连在一起的水车够多，用到毕业也不是不可能。&lt;/p&gt;
+&lt;p&gt;在当前版本下，只要水车车轮上有平行于水车面的水流，其动力输出就是最大值（虽然不影响我为了豪堪还是把水流铺满）。&lt;/p&gt;
+&lt;h4 id=&#34;b第一个造什么机器&#34;&gt;b.第一个造什么机器？
+&lt;/h4&gt;&lt;p&gt;如果你在开始建造之前仔细看了各个元件的合成表，就会发现很多元件都需要各类金属板，而金属板是由辊压机制造的。这也是我们第一个建造的机器。放在下面的那个置物台其实可以用任意方块代替，但我不太建议你省那点材料，以免日后在把物品丢上去压的时候出现各种高血压情况。&lt;/p&gt;
+&lt;p&gt;其次，石磨也值得一造。对于矿物和农作物而言，石磨是一个性价比相当高的增产手段，可以让你以小麦-面包1:1的比例生产食物，也能提高你粗矿的转化率。&lt;/p&gt;
+&lt;p&gt;在完成了辊压机以后，首先应该造出搅拌机和鼓风机。搅拌机能大大减轻你手动合成的压力，而鼓风机配合火焰、岩浆和水能提高你熔炼的效率，以及为你初步开启基础流水线生产。同时，你已经可以制造动力锯、动力钻头等装备，可以开始考虑设计自动树场、小型盾构机等机器来自动化获取某些资源。在这个阶段铁等矿物资源会相对吃紧，可以配合原版生电刷铁机一起使用。（基于机械动力圆石-沙砾-铁粒的产铁方式效率有些感人，不是很推荐）&lt;/p&gt;
+&lt;p&gt;在资源富裕的情况下可以考虑用动力收割机和机械手完成农田的自动化收割、复种和催熟。&lt;/p&gt;
+&lt;h3 id=&#34;3逐渐上手&#34;&gt;3、逐渐上手
+&lt;/h3&gt;&lt;p&gt;在自动化了农田、部分矿物资源之后，游戏也基本到了原版毕业的强度。如果只是机械动力+原版，接下来的旅程就是不断自动化和不断设计的过程；而在大部分整合包中，完成原版流程只是旅途的开始。机械动力及其附属模组可以很好地与瓦尔基里、AE2、匠魂、tetra、格雷等等科技向模组联动，助力你向更强进发。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>在开始奔跑之前</title>
+        <link>https://breadcar.github.io/p/%E5%9C%A8%E5%BC%80%E5%A7%8B%E5%A5%94%E8%B7%91%E4%B9%8B%E5%89%8D/</link>
+        <pubDate>Sat, 11 Jan 2025 21:01:04 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/%E5%9C%A8%E5%BC%80%E5%A7%8B%E5%A5%94%E8%B7%91%E4%B9%8B%E5%89%8D/</guid>
+        <description>&lt;p&gt;很多时候我都觉得自己同时带着两种怪异的特质：&lt;/p&gt;
+&lt;p&gt;一方面是优秀的包袱，一方面是破罐子破摔的摆烂纵欲。&lt;/p&gt;
+&lt;p&gt;不是一个极端就会滑向另一个极端。&lt;/p&gt;
+&lt;p&gt;‍&lt;/p&gt;
+&lt;p&gt;说实话自从上了大学以后我理性上就已经认识到自己在这里就是个普通到不能再普通的小镇做题家，前十八年除了学习以外几乎一无所有。没有说得出口的特长或者特别深入的爱好，曾经作为标签的成绩在这里也自然而然地泯然众人。&lt;/p&gt;
+&lt;p&gt;我为自己找到的开脱是成绩上卷不过别人我可以发展其他能力，于是我在学生组织上投入了很多精力。说实话，我加入那年的工作室很烂。无论是技术部门还是非技术部门都很摆，一副要散架的样子；但是学姐对我们很好也是真的。在我大一上最虚无最崩溃的那段日子里，是学姐和其他同学的陪伴以及给我安排的学习与工作给了我一个支点，让我不至于彻底垮掉（就算我从来没有对他们提起过自己的烂摊子）。在工作室里的这一年多我学会了怎么拍照拍视频和后期，自己摸索了一套工作流，也打了机电的基础，在实践里多少积累了一点管理经验，也交到了一群性格各异、兴趣广泛但是都很有趣也都很有能力的朋友，算是我这一年半乱哄哄的大学生活里我能毫不怀疑地说出的收获。&lt;/p&gt;
+&lt;p&gt;但是我那该死的自尊心也总是会被他们刺痛。尤其是来到学业成绩之类的场合，我总是打着哈哈就默默隐形。&lt;/p&gt;
+&lt;p&gt;在这群朋友里有一位我特别佩服也很喜欢的，在另一个hxd碰到组队队友不如意跟我们疯狂吐槽的那个晚上他发的一段话让我一宿没睡。部分原文贴在下面：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;他连兢兢业业完成课业都已经焦头烂额了，就不指望他能打比赛了，说白了你们俩对这件事情的热情根本就不在同一条线上，就像我觉得一天干十几个小时其实也没多累，而他觉得一天投入三小时已经是大量的投入了，他在心里就已经给这个事情标了一个很低的倾向，这种情况下是不可能在高压情况下共事的，要么全部自己干，最多就是你觉得他不配分享成果然后你把他踢掉，要么就是大家都一起摆。&lt;/p&gt;
+&lt;p&gt;我只是觉得这种人可怜，高中估计也没有余力打竞赛，大学里给了他们竞赛的选择但是其实对他们来说反而更残酷了，很多人是没那个能力打比赛的，甚至根本自己就没有热情打比赛，但是他看到周围人都去打比赛了，就焦虑了，就自己也想打了，这种人我觉得活的其实很可悲，只能活在别人的评价体系里，去做一些自己完全不想做的事情，所以才会出现所谓的三小时就是大量投入了，说实话让我去背史纲，我看五分钟都嫌自己努力。&lt;/p&gt;
+&lt;p&gt;没办法要求别人，只能安慰自己，自己和他们已经不是一个世界的人了，就像一个成年人不会和婴儿争论1+1到底等不等于2，（仅个人观点），当我和他们采用两套评价体系的时候，我甚至觉得自己做完所有事更有成就感，要说的话，我ADS的小组作业，其实所有都是我写的，最后也是一个组一起拿分，暑假的比赛我写了90%甚至更多，最后我也不过是二负，不过在我的视角里，带别人拿奖这件事威胁不到或者说影响不到我，我的想法就是提升自己，直到自己有能力和资源实现任何自己的想法。&lt;/p&gt;
+&lt;p&gt;话说回来，你们的能力和认知就注定了你们不可能用同样的思维和态度共事，这是死局，在他不愿意改变的前提下，要么你改变，要么他退出，现在看起来后者是最好的解决方案&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我佩服他的一点就在于他明明和我同样年纪却对很多事情看得比我透彻得多，总是能抓住根本，而且能清晰地表达出来；而这段话明明没在骂我，却让我感觉如芒在背。&lt;/p&gt;
+&lt;p&gt;这不就是我一直不愿意承认的我自己吗。&lt;/p&gt;
+&lt;p&gt;她出现在作为一个团体的我们面前，遭到我们这样的评价；而我像个滥竽充数的站在她的对面，大气也不敢出。&lt;/p&gt;
+&lt;p&gt;从那时候起我才知道，我一直以来以为我们只是各有所长都是自欺欺人，我在他们面前是负数。在开始成长之前，要先完成自己的从负到零的旅程。这段旅程注定是孤独的，你会羞于对如今还与你一起喝酒的他们开口，也会为了避免被认为是凡尔赛的可能而无法对旧日的同伴说起。&lt;/p&gt;
+&lt;p&gt;而我最受不了的恰恰是孤独。&lt;/p&gt;
+&lt;p&gt;前段时间我以为为了能追上已经远远在前的他们我得加倍努力，所以我给自己的一切定了翔实的日程安排表，包括每个无论有无早八都是六点多起床的清晨。可是坚持了一个多星期以后我还是因为各种因素有了破窗效应，整个计划也就一并报废。&lt;/p&gt;
+&lt;p&gt;现在我在想，从原来那个摆烂的怠速面包车忽然提到一百多码是不太可能的，变速箱也会爆掉。也许，追赶的速度也要从负到零，先试着成为一个普通人才能去追求成为自己。&lt;/p&gt;
+&lt;p&gt;我清楚地认知到自己就是那个连搞定学习都焦头烂额的彩笔，而以后我不应当继续逃避这一点，而是一步一步终于先把这一步补完。也许到那个时候，许多事情也会变得明朗很多。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>关于名字</title>
+        <link>https://breadcar.github.io/p/%E5%85%B3%E4%BA%8E%E5%90%8D%E5%AD%97/</link>
+        <pubDate>Sat, 11 Jan 2025 20:58:14 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/%E5%85%B3%E4%BA%8E%E5%90%8D%E5%AD%97/</guid>
+        <description>&lt;p&gt;你好，这里是面包车的车载烤面包机。&lt;/p&gt;
+&lt;p&gt;叫这个名字是因为灵光乍现，或者说我一直觉得有一个烤面包机是一件挺好的事情。&lt;/p&gt;
+&lt;p&gt;我们家一直没有烤面包机。&lt;/p&gt;
+&lt;p&gt;影视剧里的烤面包机总是出现在一天的清晨，主角拉开窗帘，洗漱完毕，和晨光一起来到早餐桌前，随着那刻板印象般清脆的“叮”的一声，两片或四片烤的略带焦黄的面包从面包机里跳出来，伴随着平凡却永不过时的香气（哪怕我闻不到吧），画面里的时间在这一刻似乎有了生命。&lt;/p&gt;
+&lt;p&gt;我们家没有烤面包机。&lt;/p&gt;
+&lt;p&gt;家里的早餐一直是妈来操持。其实午饭晚饭也是，但是这里先不偏题了。&lt;/p&gt;
+&lt;p&gt;我上小学和初中的那几年里，我和弟弟基本上是一起起床。妈总是把我们的早餐准备的很丰盛。在时间充裕的日子里，她会准备各种面条、包子、饺子、馄饨，会给我们每人热一盒牛奶，会给我们切好苹果、洗好葡萄、剥好橘子，在家吃的早餐和晚餐一顿能顶学校两顿，也许这也让我留下了吃早餐很慢的毛病。在那些日子里，我会在起床之前一个小时听到她经过客厅，听到厨房里传来熟悉的令人安心的锅碗瓢盆声。她总是我们家里那个迎接清晨的人。&lt;/p&gt;
+&lt;p&gt;在时间没那么充裕的日子里，她会给我们烤面包做三明治。我们的烤面包是从超市买的成袋的吐司片，是在煎锅上做的，用的也不是黄油。烤完了面包，同一个锅上会煎鸡蛋、火腿肠、培根等等，然后再稍微加热一下片好的黄瓜。妈把这些都摞进三明治里，装好盘，然后把沙拉酱、番茄酱和三明治一起端到桌上，然后来叫我们起床。我总是在她的脚步还在门口时就醒了，但却不着急睁眼。我知道她肯定不会让我睡过头的。&lt;/p&gt;
+&lt;p&gt;在我们坐上桌开吃以后，她还是在厨房里给我们收拾水果之类的。不管当天的早餐是什么，桌上一定会有两个水煮蛋，哪怕很多时候面条里或者三明治里已经有鸡蛋了。这之后她从厨房里端出来一个两个馒头或者春卷，自己吃起来。&lt;/p&gt;
+&lt;p&gt;她烤的面包也是略带焦黄，但是上面有很多炸得金黄酥脆的面包屑，面包表层是已经酥脆了的，内层还是柔软但温热的。如果当天用的吐司里带了葡萄干的话，整个面包还会带有一股特别的甜味。一口下去，我会觉得这一天算是开始了。&lt;/p&gt;
+&lt;p&gt;她会在我们开始吃的时候把手机放在桌上给我们放听力。我会趁着这时候偷偷玩一会，无论是翻翻b站还是什么，然后在她端着水果到桌前的时候心虚地把应用关掉，假装在看原文。&lt;/p&gt;
+&lt;p&gt;后来我才发现，外面的面包要么太软，软到像是生面团，要么硬到咯牙、脆到有点扎舌头。我也不是很喜欢黄油的气息。兴许烤面包机能做出那么恰到好处的面包。&lt;/p&gt;
+&lt;p&gt;也许有一个烤面包机，能让她在早晨可以晚起几分钟，哪怕几分钟，能少一点这样的负担。哪怕再好的烤面包机也比不上她的手艺。这一点我已经在离开家以后深深意识到了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>占位符</title>
         <link>https://breadcar.github.io/p/%E5%8D%A0%E4%BD%8D%E7%AC%A6/</link>
         <pubDate>Wed, 08 Jan 2025 17:17:15 +0800</pubDate>

@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 静力学公理\n力的平行四边形法则\n作用在物体上同一点的两个力可以合成为一个合力，其力矢为这两个力矢的几何和。 二力平衡条件\n作用在同一刚体上的两个力，使刚体平衡的必要充分条件为这两个力大小相等方向相反，且作用在同一直线上。 加减力系平衡原理\n在任意原有力系上加上或减去任意的平衡力系，与原力系对刚体的作用效果等效 推论1：力的可传性\n作用在刚体上某点的力，可以沿着它的作用线移到刚体内的任意一点，并不改变该力对刚体的作用 由此可见，对刚体而言，力的作用点已被作用线代替。 刚体上力的三要素：力的大小、方向和作用线。 推论2：三力平衡汇交定理\n刚体在三个力作用下平衡，若其中两个力的作用线交于一点，则第三个力的作用线必定通过该汇交点，且三个力位于同一平面内。 作用力与反作用力\n作用力与反作用力总是同时存在，两个力大小相等、方向相反，沿着同一条直线，分别作用在两个相互作用的物体上。 刚化原理\n变形体在某一力系作用下处于平衡状态，如将此变化体刚化为刚体，其平衡状态保持不变。 物体的受力分析\n约束与约束力\n自由体与非自由体\n位移不受限制的物体称为自由体；位移受到限制的物体称为非自由体。 对非自由体的某些位移起到限制作用的周围物体称为约束。约束对非自由体的作用力为约束力，其方向必与该约束所能阻碍的位移方向相反。 在静力学中，约束和物体受的其他已知力（称主动力）组成平衡力系，可用平衡条件求出未知的约束力。 几种常见约束\n光滑接触表面\n约束力作用在接触点，方向沿接触表面的公法线指向被约束物体。 柔软绳索、链条等\n作用在接触点，沿绳索背离被约束物体。 绕在轮子上时，对轮子的约束力沿轮缘的切线方向。 铰链\n无论方向，其作用线必定垂直轴线并通过轴心 方向由主动力确定 滚轴支座\n约束力必垂直于支承面并通过铰链中心 球铰链\n不能有任何位移但是可以绕球心任意转动。 约束力通过接触点与球心的一个空间法向约束力。 止推轴承\n除了能限制轴的径向位移之外还能限制轴沿轴向的位移 其约束力有三个正交分量 物体的受力分析与受力图\n确定构件受了几个力、每个力的作用位置与方向\n受力可分为主动力与被动力\n将需要分析的物体从周围的物体中分离出来，然后将其上的所有作用力画出来。\n画受力图一般分三步：取研究对象并画其简图、画主动力、画被动力。\n二力构件\n只在两个力作用下平衡的构件 其所受两个力必定等大 反向 共线。 内力与外力\n系统间各个物体之间相互作用的力称为内力，其成对出现且对系统的作用效用相互抵消，在受力图上一般不画出 系统以外的物体对系统的作用力称外力，在受力图上画出。 当铰链连接三个及以上构件时，将铰链分开需要考虑铰链位置。\n平面/空间力系\n汇交力系\n指各力的作用线汇交于一点的力系。 力系可以通过力多边形合成为一个合力，其合力的大小与方向等于各分力的矢量和，合力作用线通过汇交点。 汇交力系平衡的充分条件为该力系合力为零，即该力系的力多边形自行封闭。 汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$\u200b$%CE%A3F_x%3D0$，$ΣF_y=0$\u200b$%CE%A3F_y%3D0$，（$ΣF_z=0$\u200b$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。 力矩\n指力对刚体的转动效应，定义使刚体逆时针旋转为正、顺时针旋转为负。 在平面上力对某一点的力矩为F与力臂h的乘积，在空间中力对某一轴线的力矩为F与到轴线距离h乘积。 平面合力矩：合力对平面内任意一点的矩等于所有各分力对该点矩的代数和；空间合力矩：各分力在xyz轴向上的合力矩的矢量和。 力偶\n两个大小相等、方向相反且不共线的平行力组成的力系。 力偶之间的垂直距离称为力偶臂，其所在平面称为力偶的作用面。 力偶只改变刚体的转动状态，因此只要力偶矩不变，可以任意改变力偶的位置、力偶臂、力偶的大小。 平面力偶系的合力偶矩为各力偶矩的代数和，平衡条件为合力偶为零；空间则为三轴上的合力偶为零。 任意力系的简化\n">
+<title>理论力学（甲）Ⅰ 静力学知识整理</title>
+
+<link rel='canonical' href='https://breadcar.github.io/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E9%9D%99%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="理论力学（甲）Ⅰ 静力学知识整理">
+<meta property='og:description' content=" 静力学公理\n力的平行四边形法则\n作用在物体上同一点的两个力可以合成为一个合力，其力矢为这两个力矢的几何和。 二力平衡条件\n作用在同一刚体上的两个力，使刚体平衡的必要充分条件为这两个力大小相等方向相反，且作用在同一直线上。 加减力系平衡原理\n在任意原有力系上加上或减去任意的平衡力系，与原力系对刚体的作用效果等效 推论1：力的可传性\n作用在刚体上某点的力，可以沿着它的作用线移到刚体内的任意一点，并不改变该力对刚体的作用 由此可见，对刚体而言，力的作用点已被作用线代替。 刚体上力的三要素：力的大小、方向和作用线。 推论2：三力平衡汇交定理\n刚体在三个力作用下平衡，若其中两个力的作用线交于一点，则第三个力的作用线必定通过该汇交点，且三个力位于同一平面内。 作用力与反作用力\n作用力与反作用力总是同时存在，两个力大小相等、方向相反，沿着同一条直线，分别作用在两个相互作用的物体上。 刚化原理\n变形体在某一力系作用下处于平衡状态，如将此变化体刚化为刚体，其平衡状态保持不变。 物体的受力分析\n约束与约束力\n自由体与非自由体\n位移不受限制的物体称为自由体；位移受到限制的物体称为非自由体。 对非自由体的某些位移起到限制作用的周围物体称为约束。约束对非自由体的作用力为约束力，其方向必与该约束所能阻碍的位移方向相反。 在静力学中，约束和物体受的其他已知力（称主动力）组成平衡力系，可用平衡条件求出未知的约束力。 几种常见约束\n光滑接触表面\n约束力作用在接触点，方向沿接触表面的公法线指向被约束物体。 柔软绳索、链条等\n作用在接触点，沿绳索背离被约束物体。 绕在轮子上时，对轮子的约束力沿轮缘的切线方向。 铰链\n无论方向，其作用线必定垂直轴线并通过轴心 方向由主动力确定 滚轴支座\n约束力必垂直于支承面并通过铰链中心 球铰链\n不能有任何位移但是可以绕球心任意转动。 约束力通过接触点与球心的一个空间法向约束力。 止推轴承\n除了能限制轴的径向位移之外还能限制轴沿轴向的位移 其约束力有三个正交分量 物体的受力分析与受力图\n确定构件受了几个力、每个力的作用位置与方向\n受力可分为主动力与被动力\n将需要分析的物体从周围的物体中分离出来，然后将其上的所有作用力画出来。\n画受力图一般分三步：取研究对象并画其简图、画主动力、画被动力。\n二力构件\n只在两个力作用下平衡的构件 其所受两个力必定等大 反向 共线。 内力与外力\n系统间各个物体之间相互作用的力称为内力，其成对出现且对系统的作用效用相互抵消，在受力图上一般不画出 系统以外的物体对系统的作用力称外力，在受力图上画出。 当铰链连接三个及以上构件时，将铰链分开需要考虑铰链位置。\n平面/空间力系\n汇交力系\n指各力的作用线汇交于一点的力系。 力系可以通过力多边形合成为一个合力，其合力的大小与方向等于各分力的矢量和，合力作用线通过汇交点。 汇交力系平衡的充分条件为该力系合力为零，即该力系的力多边形自行封闭。 汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$\u200b$%CE%A3F_x%3D0$，$ΣF_y=0$\u200b$%CE%A3F_y%3D0$，（$ΣF_z=0$\u200b$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。 力矩\n指力对刚体的转动效应，定义使刚体逆时针旋转为正、顺时针旋转为负。 在平面上力对某一点的力矩为F与力臂h的乘积，在空间中力对某一轴线的力矩为F与到轴线距离h乘积。 平面合力矩：合力对平面内任意一点的矩等于所有各分力对该点矩的代数和；空间合力矩：各分力在xyz轴向上的合力矩的矢量和。 力偶\n两个大小相等、方向相反且不共线的平行力组成的力系。 力偶之间的垂直距离称为力偶臂，其所在平面称为力偶的作用面。 力偶只改变刚体的转动状态，因此只要力偶矩不变，可以任意改变力偶的位置、力偶臂、力偶的大小。 平面力偶系的合力偶矩为各力偶矩的代数和，平衡条件为合力偶为零；空间则为三轴上的合力偶为零。 任意力系的简化\n">
+<meta property='og:url' content='https://breadcar.github.io/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E9%9D%99%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/'>
+<meta property='og:site_name' content='面包车的小破站'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-11T21:06:53&#43;08:00'/><meta property='article:modified_time' content='2025-01-11T21:06:53&#43;08:00'/>
+<meta name="twitter:title" content="理论力学（甲）Ⅰ 静力学知识整理">
+<meta name="twitter:description" content=" 静力学公理\n力的平行四边形法则\n作用在物体上同一点的两个力可以合成为一个合力，其力矢为这两个力矢的几何和。 二力平衡条件\n作用在同一刚体上的两个力，使刚体平衡的必要充分条件为这两个力大小相等方向相反，且作用在同一直线上。 加减力系平衡原理\n在任意原有力系上加上或减去任意的平衡力系，与原力系对刚体的作用效果等效 推论1：力的可传性\n作用在刚体上某点的力，可以沿着它的作用线移到刚体内的任意一点，并不改变该力对刚体的作用 由此可见，对刚体而言，力的作用点已被作用线代替。 刚体上力的三要素：力的大小、方向和作用线。 推论2：三力平衡汇交定理\n刚体在三个力作用下平衡，若其中两个力的作用线交于一点，则第三个力的作用线必定通过该汇交点，且三个力位于同一平面内。 作用力与反作用力\n作用力与反作用力总是同时存在，两个力大小相等、方向相反，沿着同一条直线，分别作用在两个相互作用的物体上。 刚化原理\n变形体在某一力系作用下处于平衡状态，如将此变化体刚化为刚体，其平衡状态保持不变。 物体的受力分析\n约束与约束力\n自由体与非自由体\n位移不受限制的物体称为自由体；位移受到限制的物体称为非自由体。 对非自由体的某些位移起到限制作用的周围物体称为约束。约束对非自由体的作用力为约束力，其方向必与该约束所能阻碍的位移方向相反。 在静力学中，约束和物体受的其他已知力（称主动力）组成平衡力系，可用平衡条件求出未知的约束力。 几种常见约束\n光滑接触表面\n约束力作用在接触点，方向沿接触表面的公法线指向被约束物体。 柔软绳索、链条等\n作用在接触点，沿绳索背离被约束物体。 绕在轮子上时，对轮子的约束力沿轮缘的切线方向。 铰链\n无论方向，其作用线必定垂直轴线并通过轴心 方向由主动力确定 滚轴支座\n约束力必垂直于支承面并通过铰链中心 球铰链\n不能有任何位移但是可以绕球心任意转动。 约束力通过接触点与球心的一个空间法向约束力。 止推轴承\n除了能限制轴的径向位移之外还能限制轴沿轴向的位移 其约束力有三个正交分量 物体的受力分析与受力图\n确定构件受了几个力、每个力的作用位置与方向\n受力可分为主动力与被动力\n将需要分析的物体从周围的物体中分离出来，然后将其上的所有作用力画出来。\n画受力图一般分三步：取研究对象并画其简图、画主动力、画被动力。\n二力构件\n只在两个力作用下平衡的构件 其所受两个力必定等大 反向 共线。 内力与外力\n系统间各个物体之间相互作用的力称为内力，其成对出现且对系统的作用效用相互抵消，在受力图上一般不画出 系统以外的物体对系统的作用力称外力，在受力图上画出。 当铰链连接三个及以上构件时，将铰链分开需要考虑铰链位置。\n平面/空间力系\n汇交力系\n指各力的作用线汇交于一点的力系。 力系可以通过力多边形合成为一个合力，其合力的大小与方向等于各分力的矢量和，合力作用线通过汇交点。 汇交力系平衡的充分条件为该力系合力为零，即该力系的力多边形自行封闭。 汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$\u200b$%CE%A3F_x%3D0$，$ΣF_y=0$\u200b$%CE%A3F_y%3D0$，（$ΣF_z=0$\u200b$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。 力矩\n指力对刚体的转动效应，定义使刚体逆时针旋转为正、顺时针旋转为负。 在平面上力对某一点的力矩为F与力臂h的乘积，在空间中力对某一轴线的力矩为F与到轴线距离h乘积。 平面合力矩：合力对平面内任意一点的矩等于所有各分力对该点矩的代数和；空间合力矩：各分力在xyz轴向上的合力矩的矢量和。 力偶\n两个大小相等、方向相反且不共线的平行力组成的力系。 力偶之间的垂直距离称为力偶臂，其所在平面称为力偶的作用面。 力偶只改变刚体的转动状态，因此只要力偶矩不变，可以任意改变力偶的位置、力偶臂、力偶的大小。 平面力偶系的合力偶矩为各力偶矩的代数和，平衡条件为合力偶为零；空间则为三轴上的合力偶为零。 任意力系的简化\n">
+    <link rel="shortcut icon" href="/favicon1.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar1_hu3170172755947598306.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🚐</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">面包车的小破站</a></h1>
+            <h2 class="site-description">最擅长的事情是浪费时间。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/51149277'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/BreadCar'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://steamcommunity.com/profiles/76561198424525820/'
+                        target="_blank"
+                        title="Steam"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-steam"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
+  <circle cx="16.5" cy="9.5" r="1" fill="currentColor" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E9%9D%99%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/">理论力学（甲）Ⅰ 静力学知识整理</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 11, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <ul>
+<li>
+<p>静力学公理</p>
+<ul>
+<li>
+<p>力的平行四边形法则</p>
+<ul>
+<li>作用在物体上同一点的两个力可以合成为一个合力，其力矢为这两个力矢的几何和。</li>
+</ul>
+</li>
+<li>
+<p>二力平衡条件</p>
+<ul>
+<li>作用在同一刚体上的两个力，使刚体平衡的必要充分条件为这两个力大小相等方向相反，且作用在同一直线上。</li>
+</ul>
+</li>
+<li>
+<p>加减力系平衡原理</p>
+<ul>
+<li>在任意原有力系上加上或减去任意的平衡力系，与原力系对刚体的作用效果等效</li>
+</ul>
+</li>
+<li>
+<p>推论1：力的可传性</p>
+<ul>
+<li>作用在刚体上某点的力，可以沿着它的作用线移到刚体内的任意一点，并不改变该力对刚体的作用</li>
+<li>由此可见，对刚体而言，力的作用点已被作用线代替。</li>
+<li>刚体上力的三要素：力的大小、方向和作用线。</li>
+</ul>
+</li>
+<li>
+<p>推论2：三力平衡汇交定理</p>
+<ul>
+<li>刚体在三个力作用下平衡，若其中两个力的作用线交于一点，则第三个力的作用线必定通过该汇交点，且三个力位于同一平面内。</li>
+</ul>
+</li>
+<li>
+<p>作用力与反作用力</p>
+<ul>
+<li>作用力与反作用力总是同时存在，两个力大小相等、方向相反，沿着同一条直线，分别作用在两个相互作用的物体上。</li>
+</ul>
+</li>
+<li>
+<p>刚化原理</p>
+<ul>
+<li>变形体在某一力系作用下处于平衡状态，如将此变化体刚化为刚体，其平衡状态保持不变。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>物体的受力分析</p>
+<ul>
+<li>
+<p>约束与约束力</p>
+<ul>
+<li>
+<p>自由体与非自由体</p>
+<ul>
+<li>位移不受限制的物体称为自由体；位移受到限制的物体称为非自由体。</li>
+<li>对非自由体的某些位移起到限制作用的周围物体称为约束。约束对非自由体的作用力为约束力，其方向必与该约束所能阻碍的位移方向相反。</li>
+<li>在静力学中，约束和物体受的其他已知力（称主动力）组成平衡力系，可用平衡条件求出未知的约束力。</li>
+</ul>
+</li>
+<li>
+<p>几种常见约束</p>
+<ul>
+<li>
+<p>光滑接触表面</p>
+<ul>
+<li>约束力作用在接触点，方向沿接触表面的公法线指向被约束物体。</li>
+</ul>
+</li>
+<li>
+<p>柔软绳索、链条等</p>
+<ul>
+<li>作用在接触点，沿绳索背离被约束物体。</li>
+<li>绕在轮子上时，对轮子的约束力沿轮缘的切线方向。</li>
+</ul>
+</li>
+<li>
+<p>铰链</p>
+<ul>
+<li>无论方向，其作用线必定垂直轴线并通过轴心</li>
+<li>方向由主动力确定</li>
+</ul>
+</li>
+<li>
+<p>滚轴支座</p>
+<ul>
+<li>约束力必垂直于支承面并通过铰链中心</li>
+</ul>
+</li>
+<li>
+<p>球铰链</p>
+<ul>
+<li>不能有任何位移但是可以绕球心任意转动。</li>
+<li>约束力通过接触点与球心的一个空间法向约束力。</li>
+</ul>
+</li>
+<li>
+<p>止推轴承</p>
+<ul>
+<li>除了能限制轴的径向位移之外还能限制轴沿轴向的位移</li>
+<li>其约束力有三个正交分量</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>物体的受力分析与受力图</p>
+<ul>
+<li>
+<p>确定构件受了几个力、每个力的作用位置与方向</p>
+</li>
+<li>
+<p>受力可分为主动力与被动力</p>
+</li>
+<li>
+<p>将需要分析的物体从周围的物体中分离出来，然后将其上的所有作用力画出来。</p>
+</li>
+<li>
+<p>画受力图一般分三步：取研究对象并画其简图、画主动力、画被动力。</p>
+</li>
+<li>
+<p>二力构件</p>
+<ul>
+<li>只在两个力作用下平衡的构件</li>
+<li>其所受两个力必定等大 反向 共线。</li>
+</ul>
+</li>
+<li>
+<p>内力与外力</p>
+<ul>
+<li>系统间各个物体之间相互作用的力称为内力，其成对出现且对系统的作用效用相互抵消，在受力图上一般不画出</li>
+<li>系统以外的物体对系统的作用力称外力，在受力图上画出。</li>
+</ul>
+</li>
+<li>
+<p>当铰链连接三个及以上构件时，将铰链分开需要考虑铰链位置。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>平面/空间力系</p>
+<ul>
+<li>
+<p>汇交力系</p>
+<ul>
+<li>指各力的作用线汇交于一点的力系。</li>
+<li>力系可以通过力多边形合成为一个合力，其合力的大小与方向等于各分力的矢量和，合力作用线通过汇交点。</li>
+<li>汇交力系平衡的充分条件为该力系合力为零，即该力系的力多边形自行封闭。</li>
+<li>汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$​$%CE%A3F_x%3D0$，$ΣF_y=0$​$%CE%A3F_y%3D0$，（$ΣF_z=0$​$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。</li>
+</ul>
+</li>
+<li>
+<p>力矩</p>
+<ul>
+<li>指力对刚体的转动效应，定义使刚体逆时针旋转为正、顺时针旋转为负。</li>
+<li>在平面上力对某一点的力矩为F与力臂h的乘积，在空间中力对某一轴线的力矩为F与到轴线距离h乘积。</li>
+<li>平面合力矩：合力对平面内任意一点的矩等于所有各分力对该点矩的代数和；空间合力矩：各分力在xyz轴向上的合力矩的矢量和。</li>
+</ul>
+</li>
+<li>
+<p>力偶</p>
+<ul>
+<li>两个大小相等、方向相反且不共线的平行力组成的力系。</li>
+<li>力偶之间的垂直距离称为力偶臂，其所在平面称为力偶的作用面。</li>
+<li>力偶只改变刚体的转动状态，因此只要力偶矩不变，可以任意改变力偶的位置、力偶臂、力偶的大小。</li>
+<li>平面力偶系的合力偶矩为各力偶矩的代数和，平衡条件为合力偶为零；空间则为三轴上的合力偶为零。</li>
+</ul>
+</li>
+<li>
+<p>任意力系的简化</p>
+<ul>
+<li>
+<p>通过平移并补力偶的方式可以任意移动作用力，通过这种方式将任意力系化简为汇交力系再通过合力为零、合力矩为零求平衡条件。</p>
+<ul>
+<li>各坐标轴$ΣF_i = 0$​$%CE%A3F_i%3D0$；各平面$ΣM_i = 0$​$%CE%A3M_i%3D0$.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>物体系的平衡·静定与超静定问题</p>
+<ul>
+<li>称未知约束力等于或在平衡方程数目以下（可通过平衡方程解出的）为静定问题.</li>
+</ul>
+</li>
+<li>
+<p>平面简单桁架的内力计算</p>
+<ul>
+<li>
+<p>桁架的计算一般采取的几个假设</p>
+<ul>
+<li>各杆件均是直杆，各杆件在同一平面内</li>
+<li>各杆件两端均为光滑铰链连接</li>
+<li>所受的力都在节点上，且在桁架所在几何平面内</li>
+<li>桁架杆件重量略去不计或平均分配在杆件两端的节点上。</li>
+</ul>
+</li>
+<li>
+<p>几种计算方法</p>
+<ul>
+<li>
+<p>节点法</p>
+<ul>
+<li>依次取出每一个节点进行分析，实际上采用的是平面汇交力系解法。</li>
+</ul>
+</li>
+<li>
+<p>截面法</p>
+<ul>
+<li>适用于只要求计算几根杆件所受内力的情况。</li>
+<li>选取一截面，假想将桁架截开，再考虑其平衡，求出被截杆件的内力。</li>
+<li>实际采用的是平面任意力系的方法，所以被截的杆件一般不应超过三根。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>摩擦</p>
+<ul>
+<li>
+<p>滑动摩擦</p>
+<ul>
+<li>
+<p>静摩擦力</p>
+<ul>
+<li>
+<p>表面粗糙的物体有相对滑动趋势时两者公切面内的阻碍现象。</p>
+</li>
+<li>
+<p>与相对滑动趋势反向，与主动力等大。</p>
+</li>
+<li>
+<p>最大静摩擦力</p>
+<ul>
+<li>超过此值，物体开始滑动。</li>
+<li>$F_{smax}$=$f_sF_N$​</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>动摩擦力</p>
+<ul>
+<li>
+<p>相对滑动时物体间的阻碍作用。</p>
+<ul>
+<li>$F_d=f F_N$​</li>
+<li>一般而言$f$&lt;$f_s$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>摩擦角</p>
+<ul>
+<li>存在静滑动时，支撑面对物体的约束包括法向约束$F_N$和切向约束$F_s$. 将其合并，其合力称为全约束力</li>
+<li>全约束力的作用线与接触处公法线的夹角φ$%CF%86$,称为摩擦角。其随物体逐渐接近临界状态而增大。</li>
+<li>$tanφ = f_s$​</li>
+<li>以临界状态的全约束线为母线，公法线为轴所作的圆锥称为摩擦锥。</li>
+<li>当作用在物体上所有的主动力的合力落在摩擦锥内的时候，无论F$F$多大，都不会出现滑动现象，这种现象称为自锁现象</li>
+</ul>
+</li>
+<li>
+<p>滚动摩擦</p>
+<ul>
+<li>筒形物体的在滚动/有滚动趋势时，其受到支承面的支撑力、$F_s$和一个滚动摩擦力偶$M_f$，其与主动力和$F_s$组成的力偶相平衡来防止产生滚动。</li>
+<li>类似的，其也有最大滚动摩擦力偶矩$M_{max}$​,且在滚动过程中$M_f$始终接近M。</li>
+<li>$M_{max}$与滚子半径无关，与支承面的法向约束力$F_N$成正比，$M_f=δF_N$​$M_f%3D%CE%B4F_N$.δ$%CE%B4$称为滚动摩擦系数</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 BreadCar All Rights Reserved.
+    </section>
+    
+    <section class="powerby">
+        
+            那些逝去的人 都会以不同的方式 融化在回忆里 <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
