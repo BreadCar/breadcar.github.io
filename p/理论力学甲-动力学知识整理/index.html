@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 动力学基本方程\n第一定律（惯性定律）：每个物体保持静止或做匀速直线运动，除非受到外力的作用。也就是说，物体在没有外力作用的情况下，会保持其原有的运动状态（静止或匀速直线运动）。\n第二定律（加速度定律）：物体的加速度与所受外力成正比，与物体的质量成反比，方向与外力的方向相同。用公式表示为：$F=ma$\u200b\n其中，$F$为外力，$m$为物体的质量，a为加速度。 第三定律（作用与反作用定律）：每一个作用力都有一个大小相等、方向相反的反作用力。也就是说，如果物体 A 对物体 B 施加力，那么物体 B 也会对物体 A 施加一个大小相等、方向相反的力。\n质点的运动微分方程\n质点受n个力作用时，有$m\\frac{\\mathrm{d}^2r}{\\mathrm{d}t^2}=\\Sigma F_i$ 向坐标轴投影即可得质点在轴向上的运动方程 动量定理\n动量与冲量\n质点质量与速度的乘积称为质点的动量；质点系内各质点动量的矢量和为质点系的动量。 质点系的动量等于质心速度与其全部质量的乘积。（质心$r_C=\\frac{\\Sigma m_i r_i}{m}$\u200b） 作用力与作用时间乘积称为力的冲量，$\\mathrm{d}I=F\\mathrm{d}t$ 动量定理\n一定时间间隔内，质点动量的变化量等于作用于质点的力在此段时间内的冲量。 对质点系，动量的增量等于作用于质点系的外力冲量的矢量和 没有外力时，质点系内动量守恒。 质心运动定理\n质点系的质量与质心加速度的乘积等于作用于质点系外力的矢量和（外力的主矢） 质点系质心的运动可以看成一个质点的运动，设想该点集中了质点系的全部质量与所受的外力。 质心运动守恒定律 动量矩定理\n质点与质点系的动量矩\n质点对某一点O$O$的矩$M_o(mv)=r\\times mv$,其中$m,v,r$为质点的质量、绝对速度和对该点O的距离 质点系对某一点O$O$的矩的矢量和为该系对该点的主矩，$L_O=\\Sigma M_O(m_iv_i)$, 对某一轴 z$z$的动量矩等于各质点对该轴动量矩的代数和$L_z=\\Sigma M_z(m_iv_i)$\u200b 刚体对其转轴的动量矩等于刚体对转轴的转动惯量与转动角速度的乘积。$L_z=J_z\\omega$\u200b 动量矩定理\n质点对某定点的动量矩对时间求一阶导等于作用力对该点的矩。$\\frac{\\mathrm{d}}{\\mathrm{d}t}M_O(mv)=M_O(F)$\n相应的，质点系对某定点的动量矩对时间求一阶导等于合外力对该点的矩的矢量和（主矩）。$\\frac{\\mathrm{d}}{\\mathrm{d}t}L_O(mv)=\\Sigma M_O(F_i^{(e)})$\n面积速度定理\n仅在有心力作用下运动的质点，其面积速度守恒。其中面积速度为 $\\frac{\\mathrm{d}A}{\\mathrm{d}t}$,$A$为质点矢径 $r$扫过的面积。 绕定轴转动的转动微分方程\n设定轴转动刚体上作用有主动力$F_1,F_2,……F_n$\u200b和轴承约束力$F_{N1},F_{N2}$,这些力均为外力。\n如果不计轴承的摩擦，即轴承约束力对z轴的矩为0，根据质点系对$z$ 轴的动量矩定理有$\\frac{\\mathrm{d}}{\\mathrm{d}t}(J_z \\omega)=\\Sigma M_z(F_i)$\u200b$%5Cfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dt%7D(J_z%20%5Comega)%3D%5CSigma%20M_z(F_i)$以及其衍生形式。\n由上式可见，转动惯量是刚体转动惯性的度量，是物体自身的属性。\n简单形状物体的转动惯量（书本P285、286）：\u200b\u200b\n回转半径\n定义为$\\rho_z=\\sqrt{\\frac{J_z}{m}}$\u200b$%5Crho_z%3D%5Csqrt%7B%5Cfrac%7BJ_z%7D%7Bm%7D%7D$ 是一种工程适用量。由上式易得，$J_z=m\\rho_z^2$\u200b 平行轴定理\n刚体对任一轴的转动惯量等于刚体对通过质心的与其平行的轴的转动惯量加上刚体质量与两轴之间距离平方的乘积。\n$J_z=J_{zC}+md^2$\u200b 质点系相对于质心的动量矩定理\n对于质心，质点系可取对于质心的相对速度求其动量矩，其结果与使用绝对速度求得的动量矩是相同的 质点系对任一点O的动量矩等于质点系随质心平移时对点O的动量矩$（r_C\\times mv_C）（L_C）$\u200b上质点系相对于质心的动量矩,加即$L_O=r_C\\times mv_C +L_C$ 质点系对质心的动量矩对时间的导数，等于质点系外力对质心的主矩 刚体的平面运动微分方程\n">
+<title>理论力学（甲）Ⅰ 动力学知识整理</title>
+
+<link rel='canonical' href='https://breadcar.github.io/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E5%8A%A8%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="理论力学（甲）Ⅰ 动力学知识整理">
+<meta property='og:description' content=" 动力学基本方程\n第一定律（惯性定律）：每个物体保持静止或做匀速直线运动，除非受到外力的作用。也就是说，物体在没有外力作用的情况下，会保持其原有的运动状态（静止或匀速直线运动）。\n第二定律（加速度定律）：物体的加速度与所受外力成正比，与物体的质量成反比，方向与外力的方向相同。用公式表示为：$F=ma$\u200b\n其中，$F$为外力，$m$为物体的质量，a为加速度。 第三定律（作用与反作用定律）：每一个作用力都有一个大小相等、方向相反的反作用力。也就是说，如果物体 A 对物体 B 施加力，那么物体 B 也会对物体 A 施加一个大小相等、方向相反的力。\n质点的运动微分方程\n质点受n个力作用时，有$m\\frac{\\mathrm{d}^2r}{\\mathrm{d}t^2}=\\Sigma F_i$ 向坐标轴投影即可得质点在轴向上的运动方程 动量定理\n动量与冲量\n质点质量与速度的乘积称为质点的动量；质点系内各质点动量的矢量和为质点系的动量。 质点系的动量等于质心速度与其全部质量的乘积。（质心$r_C=\\frac{\\Sigma m_i r_i}{m}$\u200b） 作用力与作用时间乘积称为力的冲量，$\\mathrm{d}I=F\\mathrm{d}t$ 动量定理\n一定时间间隔内，质点动量的变化量等于作用于质点的力在此段时间内的冲量。 对质点系，动量的增量等于作用于质点系的外力冲量的矢量和 没有外力时，质点系内动量守恒。 质心运动定理\n质点系的质量与质心加速度的乘积等于作用于质点系外力的矢量和（外力的主矢） 质点系质心的运动可以看成一个质点的运动，设想该点集中了质点系的全部质量与所受的外力。 质心运动守恒定律 动量矩定理\n质点与质点系的动量矩\n质点对某一点O$O$的矩$M_o(mv)=r\\times mv$,其中$m,v,r$为质点的质量、绝对速度和对该点O的距离 质点系对某一点O$O$的矩的矢量和为该系对该点的主矩，$L_O=\\Sigma M_O(m_iv_i)$, 对某一轴 z$z$的动量矩等于各质点对该轴动量矩的代数和$L_z=\\Sigma M_z(m_iv_i)$\u200b 刚体对其转轴的动量矩等于刚体对转轴的转动惯量与转动角速度的乘积。$L_z=J_z\\omega$\u200b 动量矩定理\n质点对某定点的动量矩对时间求一阶导等于作用力对该点的矩。$\\frac{\\mathrm{d}}{\\mathrm{d}t}M_O(mv)=M_O(F)$\n相应的，质点系对某定点的动量矩对时间求一阶导等于合外力对该点的矩的矢量和（主矩）。$\\frac{\\mathrm{d}}{\\mathrm{d}t}L_O(mv)=\\Sigma M_O(F_i^{(e)})$\n面积速度定理\n仅在有心力作用下运动的质点，其面积速度守恒。其中面积速度为 $\\frac{\\mathrm{d}A}{\\mathrm{d}t}$,$A$为质点矢径 $r$扫过的面积。 绕定轴转动的转动微分方程\n设定轴转动刚体上作用有主动力$F_1,F_2,……F_n$\u200b和轴承约束力$F_{N1},F_{N2}$,这些力均为外力。\n如果不计轴承的摩擦，即轴承约束力对z轴的矩为0，根据质点系对$z$ 轴的动量矩定理有$\\frac{\\mathrm{d}}{\\mathrm{d}t}(J_z \\omega)=\\Sigma M_z(F_i)$\u200b$%5Cfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dt%7D(J_z%20%5Comega)%3D%5CSigma%20M_z(F_i)$以及其衍生形式。\n由上式可见，转动惯量是刚体转动惯性的度量，是物体自身的属性。\n简单形状物体的转动惯量（书本P285、286）：\u200b\u200b\n回转半径\n定义为$\\rho_z=\\sqrt{\\frac{J_z}{m}}$\u200b$%5Crho_z%3D%5Csqrt%7B%5Cfrac%7BJ_z%7D%7Bm%7D%7D$ 是一种工程适用量。由上式易得，$J_z=m\\rho_z^2$\u200b 平行轴定理\n刚体对任一轴的转动惯量等于刚体对通过质心的与其平行的轴的转动惯量加上刚体质量与两轴之间距离平方的乘积。\n$J_z=J_{zC}+md^2$\u200b 质点系相对于质心的动量矩定理\n对于质心，质点系可取对于质心的相对速度求其动量矩，其结果与使用绝对速度求得的动量矩是相同的 质点系对任一点O的动量矩等于质点系随质心平移时对点O的动量矩$（r_C\\times mv_C）（L_C）$\u200b上质点系相对于质心的动量矩,加即$L_O=r_C\\times mv_C +L_C$ 质点系对质心的动量矩对时间的导数，等于质点系外力对质心的主矩 刚体的平面运动微分方程\n">
+<meta property='og:url' content='https://breadcar.github.io/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E5%8A%A8%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/'>
+<meta property='og:site_name' content='面包车的小破站'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-11T21:07:06&#43;08:00'/><meta property='article:modified_time' content='2025-01-11T21:07:06&#43;08:00'/>
+<meta name="twitter:title" content="理论力学（甲）Ⅰ 动力学知识整理">
+<meta name="twitter:description" content=" 动力学基本方程\n第一定律（惯性定律）：每个物体保持静止或做匀速直线运动，除非受到外力的作用。也就是说，物体在没有外力作用的情况下，会保持其原有的运动状态（静止或匀速直线运动）。\n第二定律（加速度定律）：物体的加速度与所受外力成正比，与物体的质量成反比，方向与外力的方向相同。用公式表示为：$F=ma$\u200b\n其中，$F$为外力，$m$为物体的质量，a为加速度。 第三定律（作用与反作用定律）：每一个作用力都有一个大小相等、方向相反的反作用力。也就是说，如果物体 A 对物体 B 施加力，那么物体 B 也会对物体 A 施加一个大小相等、方向相反的力。\n质点的运动微分方程\n质点受n个力作用时，有$m\\frac{\\mathrm{d}^2r}{\\mathrm{d}t^2}=\\Sigma F_i$ 向坐标轴投影即可得质点在轴向上的运动方程 动量定理\n动量与冲量\n质点质量与速度的乘积称为质点的动量；质点系内各质点动量的矢量和为质点系的动量。 质点系的动量等于质心速度与其全部质量的乘积。（质心$r_C=\\frac{\\Sigma m_i r_i}{m}$\u200b） 作用力与作用时间乘积称为力的冲量，$\\mathrm{d}I=F\\mathrm{d}t$ 动量定理\n一定时间间隔内，质点动量的变化量等于作用于质点的力在此段时间内的冲量。 对质点系，动量的增量等于作用于质点系的外力冲量的矢量和 没有外力时，质点系内动量守恒。 质心运动定理\n质点系的质量与质心加速度的乘积等于作用于质点系外力的矢量和（外力的主矢） 质点系质心的运动可以看成一个质点的运动，设想该点集中了质点系的全部质量与所受的外力。 质心运动守恒定律 动量矩定理\n质点与质点系的动量矩\n质点对某一点O$O$的矩$M_o(mv)=r\\times mv$,其中$m,v,r$为质点的质量、绝对速度和对该点O的距离 质点系对某一点O$O$的矩的矢量和为该系对该点的主矩，$L_O=\\Sigma M_O(m_iv_i)$, 对某一轴 z$z$的动量矩等于各质点对该轴动量矩的代数和$L_z=\\Sigma M_z(m_iv_i)$\u200b 刚体对其转轴的动量矩等于刚体对转轴的转动惯量与转动角速度的乘积。$L_z=J_z\\omega$\u200b 动量矩定理\n质点对某定点的动量矩对时间求一阶导等于作用力对该点的矩。$\\frac{\\mathrm{d}}{\\mathrm{d}t}M_O(mv)=M_O(F)$\n相应的，质点系对某定点的动量矩对时间求一阶导等于合外力对该点的矩的矢量和（主矩）。$\\frac{\\mathrm{d}}{\\mathrm{d}t}L_O(mv)=\\Sigma M_O(F_i^{(e)})$\n面积速度定理\n仅在有心力作用下运动的质点，其面积速度守恒。其中面积速度为 $\\frac{\\mathrm{d}A}{\\mathrm{d}t}$,$A$为质点矢径 $r$扫过的面积。 绕定轴转动的转动微分方程\n设定轴转动刚体上作用有主动力$F_1,F_2,……F_n$\u200b和轴承约束力$F_{N1},F_{N2}$,这些力均为外力。\n如果不计轴承的摩擦，即轴承约束力对z轴的矩为0，根据质点系对$z$ 轴的动量矩定理有$\\frac{\\mathrm{d}}{\\mathrm{d}t}(J_z \\omega)=\\Sigma M_z(F_i)$\u200b$%5Cfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dt%7D(J_z%20%5Comega)%3D%5CSigma%20M_z(F_i)$以及其衍生形式。\n由上式可见，转动惯量是刚体转动惯性的度量，是物体自身的属性。\n简单形状物体的转动惯量（书本P285、286）：\u200b\u200b\n回转半径\n定义为$\\rho_z=\\sqrt{\\frac{J_z}{m}}$\u200b$%5Crho_z%3D%5Csqrt%7B%5Cfrac%7BJ_z%7D%7Bm%7D%7D$ 是一种工程适用量。由上式易得，$J_z=m\\rho_z^2$\u200b 平行轴定理\n刚体对任一轴的转动惯量等于刚体对通过质心的与其平行的轴的转动惯量加上刚体质量与两轴之间距离平方的乘积。\n$J_z=J_{zC}+md^2$\u200b 质点系相对于质心的动量矩定理\n对于质心，质点系可取对于质心的相对速度求其动量矩，其结果与使用绝对速度求得的动量矩是相同的 质点系对任一点O的动量矩等于质点系随质心平移时对点O的动量矩$（r_C\\times mv_C）（L_C）$\u200b上质点系相对于质心的动量矩,加即$L_O=r_C\\times mv_C +L_C$ 质点系对质心的动量矩对时间的导数，等于质点系外力对质心的主矩 刚体的平面运动微分方程\n">
+    <link rel="shortcut icon" href="/favicon1.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar1_hu3170172755947598306.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🚐</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">面包车的小破站</a></h1>
+            <h2 class="site-description">最擅长的事情是浪费时间。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/51149277'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/BreadCar'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://steamcommunity.com/profiles/76561198424525820/'
+                        target="_blank"
+                        title="Steam"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-steam"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
+  <circle cx="16.5" cy="9.5" r="1" fill="currentColor" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E7%94%B2-%E5%8A%A8%E5%8A%9B%E5%AD%A6%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/">理论力学（甲）Ⅰ 动力学知识整理</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 11, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <ul>
+<li>
+<p>动力学基本方程</p>
+<ul>
+<li>
+<p>第一定律（惯性定律）：每个物体保持静止或做匀速直线运动，除非受到外力的作用。也就是说，物体在没有外力作用的情况下，会保持其原有的运动状态（静止或匀速直线运动）。</p>
+</li>
+<li>
+<p>第二定律（加速度定律）：物体的加速度与所受外力成正比，与物体的质量成反比，方向与外力的方向相同。用公式表示为：$F=ma$​</p>
+<ul>
+<li>其中，$F$为外力，$m$为物体的质量，a为加速度。</li>
+</ul>
+</li>
+<li>
+<p>第三定律（作用与反作用定律）：每一个作用力都有一个大小相等、方向相反的反作用力。也就是说，如果物体 A 对物体 B 施加力，那么物体 B 也会对物体 A 施加一个大小相等、方向相反的力。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>质点的运动微分方程</p>
+<ul>
+<li>质点受n个力作用时，有$m\frac{\mathrm{d}^2r}{\mathrm{d}t^2}=\Sigma F_i$</li>
+<li>向坐标轴投影即可得质点在轴向上的运动方程</li>
+</ul>
+</li>
+<li>
+<p>动量定理</p>
+<ul>
+<li>
+<p>动量与冲量</p>
+<ul>
+<li>质点质量与速度的乘积称为质点的动量；质点系内各质点动量的矢量和为质点系的动量。</li>
+<li>质点系的动量等于质心速度与其全部质量的乘积。（质心$r_C=\frac{\Sigma m_i r_i}{m}$​）</li>
+<li>作用力与作用时间乘积称为力的冲量，$\mathrm{d}I=F\mathrm{d}t$</li>
+</ul>
+</li>
+<li>
+<p>动量定理</p>
+<ul>
+<li>一定时间间隔内，质点动量的变化量等于作用于质点的力在此段时间内的冲量。</li>
+<li>对质点系，动量的增量等于作用于质点系的外力冲量的矢量和</li>
+<li>没有外力时，质点系内动量守恒。</li>
+</ul>
+</li>
+<li>
+<p>质心运动定理</p>
+<ul>
+<li>质点系的质量与质心加速度的乘积等于作用于质点系外力的矢量和（外力的主矢）</li>
+<li>质点系质心的运动可以看成一个质点的运动，设想该点集中了质点系的全部质量与所受的外力。</li>
+<li>质心运动守恒定律</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>动量矩定理</p>
+<ul>
+<li>
+<p>质点与质点系的动量矩</p>
+<ul>
+<li>质点对某一点O$O$的矩$M_o(mv)=r\times mv$,其中$m,v,r$为质点的质量、绝对速度和对该点O的距离</li>
+<li>质点系对某一点O$O$的矩的矢量和为该系对该点的主矩，$L_O=\Sigma M_O(m_iv_i)$, 对某一轴 z$z$的动量矩等于各质点对该轴动量矩的代数和$L_z=\Sigma M_z(m_iv_i)$​</li>
+<li>刚体对其转轴的动量矩等于刚体对转轴的转动惯量与转动角速度的乘积。$L_z=J_z\omega$​</li>
+</ul>
+</li>
+<li>
+<p>动量矩定理</p>
+<ul>
+<li>
+<p>质点对某定点的动量矩对时间求一阶导等于作用力对该点的矩。$\frac{\mathrm{d}}{\mathrm{d}t}M_O(mv)=M_O(F)$</p>
+</li>
+<li>
+<p>相应的，质点系对某定点的动量矩对时间求一阶导等于合外力对该点的矩的矢量和（主矩）。$\frac{\mathrm{d}}{\mathrm{d}t}L_O(mv)=\Sigma M_O(F_i^{(e)})$</p>
+</li>
+<li>
+<p>面积速度定理</p>
+<ul>
+<li>仅在有心力作用下运动的质点，其面积速度守恒。其中面积速度为 $\frac{\mathrm{d}A}{\mathrm{d}t}$,$A$为质点矢径 $r$扫过的面积。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>绕定轴转动的转动微分方程</p>
+<ul>
+<li>
+<p>设定轴转动刚体上作用有主动力$F_1,F_2,……F_n$​和轴承约束力$F_{N1},F_{N2}$,这些力均为外力。</p>
+</li>
+<li>
+<p>如果不计轴承的摩擦，即轴承约束力对z轴的矩为0，根据质点系对$z$ 轴的动量矩定理有$\frac{\mathrm{d}}{\mathrm{d}t}(J_z \omega)=\Sigma M_z(F_i)$​$%5Cfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dt%7D(J_z%20%5Comega)%3D%5CSigma%20M_z(F_i)$以及其衍生形式。</p>
+</li>
+<li>
+<p>由上式可见，转动惯量是刚体转动惯性的度量，是物体自身的属性。</p>
+</li>
+<li>
+<p>简单形状物体的转动惯量（书本P285、286）：<img src="https://api2.mubu.com/v3/document_image/6055ee2f-f3ed-4313-8032-89be55a9cf68-26309867.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+>​<img src="https://api2.mubu.com/v3/document_image/54199258-5386-4132-9db8-9b9e3e0939c6-26309867.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+>​</p>
+</li>
+<li>
+<p>回转半径</p>
+<ul>
+<li>定义为$\rho_z=\sqrt{\frac{J_z}{m}}$​$%5Crho_z%3D%5Csqrt%7B%5Cfrac%7BJ_z%7D%7Bm%7D%7D$</li>
+<li>是一种工程适用量。由上式易得，$J_z=m\rho_z^2$​</li>
+</ul>
+</li>
+<li>
+<p>平行轴定理</p>
+<ul>
+<li>
+<p>刚体对任一轴的转动惯量等于刚体对通过质心的与其平行的轴的转动惯量加上刚体质量与两轴之间距离平方的乘积。</p>
+<ul>
+<li>$J_z=J_{zC}+md^2$​</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>质点系相对于质心的动量矩定理</p>
+<ul>
+<li>对于质心，质点系可取对于质心的相对速度求其动量矩，其结果与使用绝对速度求得的动量矩是相同的</li>
+<li>质点系对任一点O的动量矩等于质点系随质心平移时对点O的动量矩$（r_C\times mv_C）（L_C）$​上质点系相对于质心的动量矩,加即$L_O=r_C\times mv_C +L_C$</li>
+<li>质点系对质心的动量矩对时间的导数，等于质点系外力对质心的主矩</li>
+</ul>
+</li>
+<li>
+<p>刚体的平面运动微分方程</p>
+<ul>
+<li>即$ma_C=\Sigma F^{(e)}$、$J_{C}\alpha=\Sigma M_C(F^{(e)})$​</li>
+<li>在实际使用时常将力与加速度方程投影到坐标轴上求解，或者将合力与总加速度分解为径向和切向。</li>
+<li>本质是平面/空间力系方程加上了一个动量矩定理</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>动能定理</p>
+<ul>
+<li>
+<p>$W=Fcos{\theta}\cdot s$​</p>
+</li>
+<li>
+<p>几种常见力的功</p>
+<ul>
+<li>重力 $\Sigma W_{12}=mg(z_{C1}-z_{C2})$​$%5CSigma%20W_%7B12%7D%3Dmg(z_%7BC1%7D-z_%7BC2%7D)$</li>
+<li>弹性力  $W_{12}=\frac{k}{2}(\delta_1^2-\delta_2^2)$​,  其中$\delta$​$%5Cdelta$为弹簧的形变量</li>
+<li>定轴转动刚体上力的功 $W_{12}=\int_{\varphi_1}^{\varphi_2}M_z \mathrm{d}\varphi$​</li>
+<li>任意运动刚体力系 $W_{12}=\int_{C_1}^{C_2}F_R&rsquo;\cdot \mathrm{d}r_C+\int_{\varphi_1}^{\varphi_2}M_C\mathrm{d}\varphi$​</li>
+</ul>
+</li>
+<li>
+<p>内力做功不一定为零，但是刚体内力做功和一定为零</p>
+</li>
+<li>
+<p>质点和质点系的动能</p>
+<ul>
+<li>
+<p>$T=\Sigma \frac{1}{2}mv^2$​</p>
+</li>
+<li>
+<p>对于刚体，$T=\frac{1}{2}mv_C^2+\frac{1}{2}J_C\omega ^2$​</p>
+</li>
+<li>
+<p>柯尼希定理</p>
+<ul>
+<li>质点系在绝对运动中的动能等于他在随质心平移动能与相对于质心平移参考系动能的和。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>动能定理</p>
+<ul>
+<li>质点（系）动能的改变量等于作用在质点上力的功</li>
+<li>单位时间内力所作的功称为功率；有用功与输入功的比值称为机械效率</li>
+</ul>
+</li>
+<li>
+<p>势力场 势能 $%5Ccdot$机械能守恒定律</p>
+<ul>
+<li>
+<p>保守力形成的力场称为势力场，物体在场中由$M_0$到$M$受到有势力所做的功称为$M$相对于$M_0$的势能。</p>
+</li>
+<li>
+<p>几种常见的势能</p>
+<ul>
+<li>
+<p>重力场</p>
+<ul>
+<li>$V=\int_{z}^{z_0}-mg\mathrm{d}z=mg(z-z_0)$​</li>
+</ul>
+</li>
+<li>
+<p>弹性力场</p>
+<ul>
+<li>$V=\frac{2}{k}(\delta^2-\delta_0^2)$​,当选取弹性力为0处为$\delta_0$​$%5Cdelta_0$可进一步简化</li>
+</ul>
+</li>
+<li>
+<p>万有引力场</p>
+<ul>
+<li>V=Gm_1m_2(\frac{1}{r_1}-\frac{1}{r}),若选取$r_1$在无限远处可进一步简化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>机械能守恒定律</p>
+<ul>
+<li>质点系仅在有势场作用下运动时，其机械能保持不变。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>普遍定理</p>
+<ul>
+<li>包括动量定理、动量矩定理和动能定理。</li>
+<li>提供了解决动力学问题的一般方法。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>达朗贝尔原理</p>
+<ul>
+<li>
+<p>动静法</p>
+<ul>
+<li>引入惯性力，用平衡方程的方法求解动力学问题</li>
+</ul>
+</li>
+<li>
+<p>惯性力\cdot$%5Ccdot$质点的达朗贝尔原理</p>
+<ul>
+<li>将质点当前的运动状态假想为一个力$F_1=ma$,称之为惯性力</li>
+<li>作用在质点上的主动力、约束力和他的惯性力在形式上组成平衡力系</li>
+</ul>
+</li>
+<li>
+<p>质点系的达朗贝尔原理</p>
+<ul>
+<li>质点系中每一个质点上作用的主动力、约束力和他的惯性力在形式上组成一个平衡力系</li>
+</ul>
+</li>
+<li>
+<p>刚体惯性力系的简化</p>
+<ul>
+<li>静力学中任意力系的简化同样适用于惯性力系</li>
+<li>以$F_{IR}$表示惯性力系的主矢，以$M_{IO}$​表示惯性力系的主矩</li>
+<li>平移刚体的惯性力系可以简化为通过质心的合力，其大小等于刚体质量与加速度的乘积，方向与加速度方向相反。</li>
+<li>定轴转动刚体的惯性力系可以简化为通过质心的合力和绕转轴的力偶</li>
+<li>平面运动刚体的惯性力系可以简化为通过质心的合力和平行于运动平面的力偶</li>
+</ul>
+</li>
+<li>
+<p>绕定轴转动刚体的轴承附加动约束力</p>
+<ul>
+<li>刚体绕定轴转动时，避免出现轴承附加动约束力的条件是转轴通过质心、刚体对转轴的惯性积为0，</li>
+<li>若对于通过某点的z轴的xz、yz惯性积为零，则称此轴为过该点的惯性主轴，通过质心的惯性主轴称为中心惯性主轴。于是，避免出现轴承附加动约束力的条件是刚体转轴通过刚体的中心惯性主轴</li>
+<li>转轴通过质心可以达到静平衡；转轴为中心惯性主轴可以达到动平衡。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>虚位移原理</p>
+<ul>
+<li>
+<p>约束</p>
+<ul>
+<li>
+<p>限制质点（系）运动的关系式称为约束，若该关系可用等式表达则将其称为约束方程</p>
+</li>
+<li>
+<p>约束的几种分类</p>
+<ul>
+<li>
+<p>几何约束/运动约束</p>
+<ul>
+<li>限制位置的关系式称为几何约束</li>
+<li>限制运动情况的称为运动约束</li>
+<li>当运动约束可以对时间积分时，其可转换为几何约束。</li>
+</ul>
+</li>
+<li>
+<p>定常约束/非定常约束</p>
+<ul>
+<li>随时间变化与否</li>
+</ul>
+</li>
+<li>
+<p>双侧约束/单侧约束</p>
+<ul>
+<li>关系式为等式的为双侧；关系式为不等式的为单侧。</li>
+</ul>
+</li>
+<li>
+<p>完整约束/非完整约束</p>
+<ul>
+<li>由几何约束和可积分的运动约束组成为称为完整约束，反之为非完整约束。</li>
+<li>本章只讨论完整、双侧约束。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>虚位移</p>
+<ul>
+<li>为了应用功的观点分析质点系平衡关系，设想在约束允许的情况下给各质点一个微小的位移，其微小且与时间无关，称为虚位移</li>
+</ul>
+</li>
+<li>
+<p>虚功</p>
+<ul>
+<li>质点系所受的力在虚位移上做的功称为虚功</li>
+</ul>
+</li>
+<li>
+<p>理想约束</p>
+<ul>
+<li>如果在质点系的任何虚位移中，所有约束力所作的虚功和为零，这种约束称为理想约束</li>
+</ul>
+</li>
+<li>
+<p>虚位移原理</p>
+<ul>
+<li>对于具有理想约束的质点系，其平衡的充分必要条件是：作用于质点系的所有主动力在任何虚位移上所作虚功的和为零。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 BreadCar All Rights Reserved.
+    </section>
+    
+    <section class="powerby">
+        
+            那些逝去的人 都会以不同的方式 融化在回忆里 <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
