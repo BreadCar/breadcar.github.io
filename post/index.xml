@@ -110,7 +110,7 @@
 &lt;p&gt;设定轴转动刚体上作用有主动力$F_1,F_2,……F_n$​和轴承约束力$F_{N1},F_{N2}$,这些力均为外力。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;如果不计轴承的摩擦，即轴承约束力对z轴的矩为0，根据质点系对$z$ 轴的动量矩定理有$\frac{\mathrm{d}}{\mathrm{d}t}(J_z \omega)=\Sigma M_z(F_i)$​$%5Cfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dt%7D(J_z%20%5Comega)%3D%5CSigma%20M_z(F_i)$以及其衍生形式。&lt;/p&gt;
+&lt;p&gt;如果不计轴承的摩擦，即轴承约束力对z轴的矩为0，根据质点系对$z$ 轴的动量矩定理有$\frac{\mathrm{d}}{\mathrm{d}t}(J_z \omega)=\Sigma M_z(F_i)$$%5Cfrac%7B%5Cmathrm%7Bd%7D%7D%7B%5Cmathrm%7Bd%7Dt%7D(J_z%20%5Comega)%3D%5CSigma%20M_z(F_i)$以及其衍生形式。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;由上式可见，转动惯量是刚体转动惯性的度量，是物体自身的属性。&lt;/p&gt;
@@ -135,7 +135,7 @@
 &lt;li&gt;
 &lt;p&gt;回转半径&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;定义为$\rho_z=\sqrt{\frac{J_z}{m}}$​$%5Crho_z%3D%5Csqrt%7B%5Cfrac%7BJ_z%7D%7Bm%7D%7D$&lt;/li&gt;
+&lt;li&gt;定义为$\rho_z=\sqrt{\frac{J_z}{m}}$$%5Crho_z%3D%5Csqrt%7B%5Cfrac%7BJ_z%7D%7Bm%7D%7D$&lt;/li&gt;
 &lt;li&gt;是一种工程适用量。由上式易得，$J_z=m\rho_z^2$​&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -179,8 +179,8 @@
 &lt;li&gt;
 &lt;p&gt;几种常见力的功&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;重力 $\Sigma W_{12}=mg(z_{C1}-z_{C2})$​$%5CSigma%20W_%7B12%7D%3Dmg(z_%7BC1%7D-z_%7BC2%7D)$&lt;/li&gt;
-&lt;li&gt;弹性力  $W_{12}=\frac{k}{2}(\delta_1^2-\delta_2^2)$​,  其中$\delta$​$%5Cdelta$为弹簧的形变量&lt;/li&gt;
+&lt;li&gt;重力 $\Sigma W_{12}=mg(z_{C1}-z_{C2})$$%5CSigma%20W_%7B12%7D%3Dmg(z_%7BC1%7D-z_%7BC2%7D)$&lt;/li&gt;
+&lt;li&gt;弹性力  $W_{12}=\frac{k}{2}(\delta_1^2-\delta_2^2)$​,  其中$\delta$$%5Cdelta$为弹簧的形变量&lt;/li&gt;
 &lt;li&gt;定轴转动刚体上力的功 $W_{12}=\int_{\varphi_1}^{\varphi_2}M_z \mathrm{d}\varphi$​&lt;/li&gt;
 &lt;li&gt;任意运动刚体力系 $W_{12}=\int_{C_1}^{C_2}F_R&amp;rsquo;\cdot \mathrm{d}r_C+\int_{\varphi_1}^{\varphi_2}M_C\mathrm{d}\varphi$​&lt;/li&gt;
 &lt;/ul&gt;
@@ -230,7 +230,7 @@
 &lt;li&gt;
 &lt;p&gt;弹性力场&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$V=\frac{2}{k}(\delta^2-\delta_0^2)$​,当选取弹性力为0处为$\delta_0$​$%5Cdelta_0$可进一步简化&lt;/li&gt;
+&lt;li&gt;$V=\frac{2}{k}(\delta^2-\delta_0^2)$​,当选取弹性力为0处为$\delta_0$$%5Cdelta_0$可进一步简化&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -534,7 +534,7 @@
 &lt;li&gt;指各力的作用线汇交于一点的力系。&lt;/li&gt;
 &lt;li&gt;力系可以通过力多边形合成为一个合力，其合力的大小与方向等于各分力的矢量和，合力作用线通过汇交点。&lt;/li&gt;
 &lt;li&gt;汇交力系平衡的充分条件为该力系合力为零，即该力系的力多边形自行封闭。&lt;/li&gt;
-&lt;li&gt;汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$​$%CE%A3F_x%3D0$，$ΣF_y=0$​$%CE%A3F_y%3D0$，（$ΣF_z=0$​$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。&lt;/li&gt;
+&lt;li&gt;汇交力系解析法：将各个分力投影到坐标轴上，计算各坐标轴向上的力是否平衡。$ΣF_x=0$$%CE%A3F_x%3D0$，$ΣF_y=0$$%CE%A3F_y%3D0$，（$ΣF_z=0$$%CE%A3F_z%3D0$，当力系为空间力系时）为汇交力系的平衡方程。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -560,7 +560,7 @@
 &lt;li&gt;
 &lt;p&gt;通过平移并补力偶的方式可以任意移动作用力，通过这种方式将任意力系化简为汇交力系再通过合力为零、合力矩为零求平衡条件。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;各坐标轴$ΣF_i = 0$​$%CE%A3F_i%3D0$；各平面$ΣM_i = 0$​$%CE%A3M_i%3D0$.&lt;/li&gt;
+&lt;li&gt;各坐标轴$ΣF_i = 0$$%CE%A3F_i%3D0$；各平面$ΣM_i = 0$$%CE%A3M_i%3D0$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -659,7 +659,7 @@
 &lt;ul&gt;
 &lt;li&gt;筒形物体的在滚动/有滚动趋势时，其受到支承面的支撑力、$F_s$和一个滚动摩擦力偶$M_f$，其与主动力和$F_s$组成的力偶相平衡来防止产生滚动。&lt;/li&gt;
 &lt;li&gt;类似的，其也有最大滚动摩擦力偶矩$M_{max}$​,且在滚动过程中$M_f$始终接近M。&lt;/li&gt;
-&lt;li&gt;$M_{max}$与滚子半径无关，与支承面的法向约束力$F_N$成正比，$M_f=δF_N$​$M_f%3D%CE%B4F_N$.δ$%CE%B4$称为滚动摩擦系数&lt;/li&gt;
+&lt;li&gt;$M_{max}$与滚子半径无关，与支承面的法向约束力$F_N$成正比，$M_f=δF_N$$M_f%3D%CE%B4F_N$.δ$%CE%B4$称为滚动摩擦系数&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
