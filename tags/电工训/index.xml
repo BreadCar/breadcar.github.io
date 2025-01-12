@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>电工训 on 面包车的小破站</title>
+        <link>https://breadcar.github.io/tags/%E7%94%B5%E5%B7%A5%E8%AE%AD/</link>
+        <description>Recent content in 电工训 on 面包车的小破站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>BreadCar All Rights Reserved.</copyright>
+        <lastBuildDate>Sun, 12 Jan 2025 23:32:59 +0800</lastBuildDate><atom:link href="https://breadcar.github.io/tags/%E7%94%B5%E5%B7%A5%E8%AE%AD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>电工电子工程训练实验报告</title>
+        <link>https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</link>
+        <pubDate>Sun, 12 Jan 2025 23:15:52 +0800</pubDate>
+        
+        <guid>https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid>
+        <description>&lt;img src="https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/cover.jpg" alt="Featured image of post 电工电子工程训练实验报告" /&gt;&lt;h1 id=&#34;01-安全用电和交流低压配电电路的安装&#34;&gt;01 安全用电和交流低压配电电路的安装
+&lt;/h1&gt;&lt;h4 id=&#34;一实验目的&#34;&gt;一、实验目的
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;三相四线制交流电源的认识&lt;/li&gt;
+&lt;li&gt;学习安全用电知识，了解漏电保护原理和接地接零常识&lt;/li&gt;
+&lt;li&gt;熟悉电工常用工具和便携仪表的使用方法&lt;/li&gt;
+&lt;li&gt;学习低压交流配电电路组件的合理安装和正确连接&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;二内容概述&#34;&gt;二、内容概述
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;低压配电系统&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在中国一般是指三相380V和三相四线制380/220V的交流电压；其原则是变电所要深入负荷中心，以最小距离分配低压电能，以达到降低损耗、提高质量等目的。&lt;/li&gt;
+&lt;li&gt;根据国家标准，要求配电线路必须装设短路保护、过负载保护和接地故障保护。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电度表&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;单相电度表是用于测量电能的仪表，可分为机械式和电子式两种。（本实验中使用机械式）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;单相电度表有四个接线柱，从左到右按1~4编号，接线方式可分为跳入式接线和顺入式接线。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;跳入式：1、3接电源进线（1为相线进，3为中性线进），2、4接电源出线（2为相线出，4为中性线出）&lt;/li&gt;
+&lt;li&gt;顺入式：1、2接电源进线（1为相线进，2为中性线进），3、4接电源出线（3为相线出，4为中性线出）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;三实验设备和器材&#34;&gt;三、实验设备和器材
+&lt;/h4&gt;&lt;p&gt;绝缘电阻表、万用表、单相电度表、试电笔、电度表、漏电保护开关、单联开关、熔断器、电阻器、电工工具盒、插座、灯座、导线若干。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;四实验内容&#34;&gt;四、实验内容
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;熟悉常用电工工具和便携仪表的使用。用电笔验电；用万用表测试交流电压、负载电阻阻值；用绝缘电阻测试仪（兆欧表）测试接线端端子牌与机壳的绝缘电阻&lt;/li&gt;
+&lt;li&gt;了解漏电保护开关的工作原理和具体接线&lt;/li&gt;
+&lt;li&gt;画出单相配电电路接线图，并按图在开关柜中完成各电器的安装链接。&lt;/li&gt;
+&lt;li&gt;用电灯作负载，观测单相配电系统的工作情况。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;五接线图&#34;&gt;五、接线图
+&lt;/h4&gt;&lt;p&gt;![屏幕截图 2024-09-19 182919](assets/屏幕截图 2024-09-19 182919-20240919182959-mjz2wq2.png)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;六思考题&#34;&gt;六、思考题
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;什么叫中线、火线、地线、零线？&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中线/零线/地线：从三相电源中点引出的线，一般总是可靠接地，也有时被称为零线或地线。&lt;/p&gt;
+&lt;p&gt;火线：从三相电源的三个端点引出的输电线，带有电压。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;如何判断三相四线制电源中的相线和中线？&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;通过外观判断&lt;/strong&gt;。根据国家标准，中线一般外皮为蓝色，三根相线外皮一般为红、绿、黄色；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通过万用表测量判断&lt;/strong&gt;。若两条线之间的电压约为380V，这两条必是相线；若两条线之间电压约为220V，这两条中有一条为中线。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;七实验总结&#34;&gt;七、实验总结
+&lt;/h4&gt;&lt;p&gt;说实话，实验部分感觉还是很简单的，包括实验前的三相四线制相关的理论知识也都很好理解。操作中遇到最多的问题就是电线剥皮剥夺了以及线的形状不好整理、理线比较困难。但是在写实验报告的时候这个接线图弄了我好久好久，从去网上搜用什么软件画接线图到磕磕绊绊装好软件再到申请学生认证，最后才一边查文档一边把这个简单的图画出来。途中也想过直接用CAD画甚至用平板来手绘，但是总觉得那只是应付一时，如果之后还有要用到电路图的场景还是把这个软件学会为好。最终能画出来，应该也能说明我基本入门了吧？&lt;/p&gt;
+&lt;h1 id=&#34;02-三相异步电机控制电路的安装&#34;&gt;02 三相异步电机控制电路的安装
+&lt;/h1&gt;&lt;h4 id=&#34;一实验目的-1&#34;&gt;一、实验目的
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;常用电气元器件的认识和使用&lt;/li&gt;
+&lt;li&gt;学习常用电动机的简单使用方法&lt;/li&gt;
+&lt;li&gt;单相照明电路及双控开关的安装和连接&lt;/li&gt;
+&lt;li&gt;学习三相电路负荷的分配和安装、连接&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;二内容概述-1&#34;&gt;二、内容概述
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;常用电气元器件的认识和使用&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;按钮&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;按钮是一种短时接通或断开的简单的用于小电流电路的手动开关，通常用于控制电路中发出“接通”或“断开”等指令，以控制接触器、继电器等电器的线圈电流的接通或断开。&lt;/p&gt;
+&lt;p&gt;分为动合与动断两种。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;继电器、接触器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;交流接触器一般采用双断点桥式触点，即两个触点串于同一电路中，同时接通或断开电路。接触器的触点有主触点和辅助触点之分。&lt;/p&gt;
+&lt;p&gt;主触点：用于通断电流较大的主电路，一般有接触面较大的动合触点组成；&lt;/p&gt;
+&lt;p&gt;辅助触点：用于通断电流较小的控制电路，它由动合触点和动断触点成对组成。&lt;/p&gt;
+&lt;p&gt;接触器未工作时处于断开状态的触点称为动合触点（常开触点）；接触器未工作时处于接通状态的触点称为动断触点（常闭触点）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;热继电器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;热继电器种类很多，应用最广的是基于双金属片的热继电器，其主要由热元件、双金属片、触头三部分组成。双金属片是热继电器的感测元件，它由两种不同的线膨胀系数的金属用机械辗压而成。&lt;/p&gt;
+&lt;p&gt;过载时，流过热元件的电流增大，热元件产生的热量增加，使双金属片弯曲位移增大，经过一定时间后，双金属片推动导使继电器触头动作，切断电动机的控制电路。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;三实验设备与器材&#34;&gt;三、实验设备与器材
+&lt;/h4&gt;&lt;p&gt;三相异步电动机、组合开关、熔断器、交流接触器、热继电器、按钮、端子、导线。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;四实验内容-1&#34;&gt;四、实验内容
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;连接电路，观察单联双控电路的工作情况。&lt;/li&gt;
+&lt;li&gt;用万用表检查交流接触器各组触点的工作情况，记录动断、动合的辅助触点组数及物理位置。&lt;/li&gt;
+&lt;li&gt;用万用表检查三相异步电动机的绕组线圈。辨别电动机三相绕组对应的接线端始末。&lt;/li&gt;
+&lt;li&gt;检查并操作三相异步电动机的三相绕组端子按Y形联接。&lt;/li&gt;
+&lt;li&gt;安装线路、检查接线无误后通电源，启动三相异步电机。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;五接线图-1&#34;&gt;五、接线图
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/assets/%e5%ae%9e%e9%aa%8c2%2001-20240925105713-onxcm3q.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;实验2 01&#34;
+	
+	
+&gt;&lt;img src=&#34;https://breadcar.github.io/assets/%e5%ae%9e%e9%aa%8c2%2002-20240925105733-ek9ajov.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;实验2 02&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;丑的不行的&lt;/del&gt;实物图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/assets/Project%202_00-20240925194012-n8fobkj.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Project 2_00&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;六思考题-1&#34;&gt;六、思考题
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;为什么三相四线制电源的负载必须分配均匀？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在三相电源系统中，如 果负载不平衡，即三相负载之间的功率不均匀分布，会导致电流在中性线上流动。这可能会导致中性线过载，甚至引发电力系统中断或损坏；&lt;/p&gt;
+&lt;p&gt;当负载不平衡时，某些相位的电流可能会比其他相位更高。这意味着某些线路上会有更多的能量流失，导致能源的浪费。通过平衡负载，可以最大限度地减少这种能量浪费。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;三相四线制电源的中线断开以后，可能会对同意电网造成什么后果？为什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;中性线起到辅助负载平衡的作用。中性线断开后，负载更加容易失衡，可能导致元器件烧毁或者电压不足无法工作；&lt;/p&gt;
+&lt;p&gt;中性线可以将多余的电流导出工作回路，避免电流过载引发事故。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;对应三相异步电动机的接线盒中绕组端子标号，画出电机作星形和三角形连接时的接线图。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/image-20240930213406-tbyn9ds.png&#34;
+	width=&#34;1135&#34;
+	height=&#34;572&#34;
+	srcset=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/image-20240930213406-tbyn9ds_hu17821419841662418450.png 480w, https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/image-20240930213406-tbyn9ds_hu4015207700405074613.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;198&#34;
+		data-flex-basis=&#34;476px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;七实验总结-1&#34;&gt;七、实验总结
+&lt;/h4&gt;&lt;p&gt;这次实验用到的电路说实话很简单，如果只是在纸面上设计的话应该说是一点难度都没有，但是因为以前基本没有实际连接电路的经验，对于将原理图转化为实际的接线还是有亿点陌生（）因为我自己对线路关系思路一团乱麻，导致后半节课基本都是负进度（非常对不起我的队友QAQ）不过这样一来我对控制电路的基本接法也有了大概的概念，在之后的实验里应该不会再出现这种情况了（吧？&lt;/p&gt;
+&lt;p&gt;‍&lt;/p&gt;
+&lt;h1 id=&#34;03-带时间继电器的控制电路安装&#34;&gt;03 带时间继电器的控制电路安装
+&lt;/h1&gt;&lt;h4 id=&#34;一实验目的-2&#34;&gt;一、实验目的
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;了解时间继电器的基本结构，并掌握其使用方法&lt;/li&gt;
+&lt;li&gt;学习并掌握时间控制电路的工作原理、控制功能、接线及操作方法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;二内容概述-2&#34;&gt;二、内容概述
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;时间继电器综述&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;定义：凡是在感测元件获得信号后，执行元件要延迟一段时间才动作的继电器叫做时间继电器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;时间继电器是一种利用电磁原理或机械动作原理实现触点延时接通或断开的自动控制电器。它的种类很多，常用的有电磁式、空气阻尼式、电动式和晶体管式等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输入信号可以是直流信号，也可以是交流信号；开关输出可以是动合或动断触点，也可以是各种电子开关，为叙述方便，以下统称为触点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;根据输出开关的动作与输入信号的关系，时间继电器的输出开关有以下三种类型：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;瞬时触点：开关的通断与输入信号同步动作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通延时触点：开关的通断在施加输入信号后延时动作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;断延时触点：开关的通断在撤消输入信号后延时动作&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;延时触点元件图中圆弧缺口的方向指代其演示动作方向，朝上为通延时，朝下为断延时。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;三实验设备与器材-1&#34;&gt;三、实验设备与器材
+&lt;/h4&gt;&lt;p&gt;三相异步电动机、指示灯、熔断器、交流接触器、热继电器、时间继电器、按钮、端子、导线&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;四实验内容-2&#34;&gt;四、实验内容
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;画出三相异步电动机Y-Δ启动电路的接线图。&lt;/li&gt;
+&lt;li&gt;连接时间控制电路，观察电路工作情况。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;五思考题&#34;&gt;·五、思考题
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;试设计一控制电路，要求达到以下控制功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按下常开按钮SB&lt;sub&gt;2&lt;/sub&gt;，接触器KM&lt;sub&gt;2&lt;/sub&gt;得电，指示灯亮；2秒后接触器KM&lt;sub&gt;1&lt;/sub&gt;得点，三相异步电动机自行启动；&lt;/li&gt;
+&lt;li&gt;按下复合按钮SB&lt;sub&gt;1&lt;/sub&gt;，电动机立刻停止运行，指示灯延时5秒后熄灭&lt;/li&gt;
+&lt;li&gt;延时继电器采用AH3-NB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E7%AC%AC%E4%B8%89%E6%AC%A1-20241005212026-66ggmot.png&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E7%AC%AC%E4%B8%89%E6%AC%A1-20241005212026-66ggmot_hu1212844233453604633.png 480w, https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E7%AC%AC%E4%B8%89%E6%AC%A1-20241005212026-66ggmot_hu7332719657419716101.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第三次&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;分析说明图4-1所示实验电路的工作原理，总结他们的动作结果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;合上电源开关QS，按下SB2：&lt;/p&gt;
+&lt;p&gt;KM1线圈通电&lt;/p&gt;
+&lt;p&gt;a.KM1辅助触点闭合，自锁，松开SB2，电路无变化，&lt;/p&gt;
+&lt;p&gt;b.KM1三对主触点闭合，电动机起动；&lt;/p&gt;
+&lt;p&gt;KT1线圈通电，KT1开关延时闭合；&lt;/p&gt;
+&lt;p&gt;KM2线圈通电：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  a.KM2动合触点闭合使指示灯亮起
+		
+  b.KM2 动断触点断开，KT1 线圈断电，KT1 开关延时断开（断开后，KM2断电）
+		
+  c.KM2常开触点闭合，KT2带电，KT2 开关延时断开，KM2线圈断电，灯灭）
+		
+  	KM2断电后，KM2常闭触点保持闭合状态，KT1带电，重复上述过程，实现灯的闪烁。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;按下SB1时，电路断开，指示灯灭，电机不工作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;六实验总结&#34;&gt;六、实验总结
+&lt;/h4&gt;&lt;p&gt;这次实验的接线虽然比上次要复杂一点，但是还是比较清晰的；除了相线接入接出时接错端子这种低级错误，整个实践过程基本是一遍过。这次实验中主要学习了延时继电器的作用，也进一步强化了自锁电路的相关知识。&lt;/p&gt;
+&lt;p&gt;‍&lt;/p&gt;
+&lt;h1 id=&#34;04-带行程开关的控制电路安装&#34;&gt;04 带行程开关的控制电路安装
+&lt;/h1&gt;&lt;h4 id=&#34;一实验目的-3&#34;&gt;一、实验目的
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;学习按钮、接触器、热继电器、行程开关、互感器等常用电气控制器件的基本结构、工作原理及接线方法&lt;/li&gt;
+&lt;li&gt;学习三相异步电动机的起动方法及控制电路的连接&lt;/li&gt;
+&lt;li&gt;学习三相异步电动机的基本控制和保护过程&lt;/li&gt;
+&lt;li&gt;学习并掌握基本继电接触控制电路的工作原理、接线及操作方法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;二内容概述-3&#34;&gt;二、内容概述
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;行程开关&lt;/p&gt;
+&lt;p&gt;行程开关也称限位开关，是一种根据生产机械的行程或位置信号进行动作的电器，用于控制生产机械的运动方向、行程大小或位置保护。 行程开关所控制的是辅助电路，因此也是一种继电器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接触器控制线路&lt;/p&gt;
+&lt;p&gt;接触器控制电动机单向方向连续旋转的直接起动控制线路。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;三相异步电机单向旋转直接起动电路，三相异步电动机正反向旋转控制电路，三相异步电动机顺序控制电路和三相异步电动机简单的行程控制电路的学习。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;三实验设备与器材-2&#34;&gt;三、实验设备与器材
+&lt;/h4&gt;&lt;p&gt;三相异步电动机、组合开关、熔断器、交流接触器、热继电器、按钮、端子、导线&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;四实验内容-3&#34;&gt;四、实验内容
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;三相异步电机单项旋转直接起动和三相异步电动机简单的行程控制电路&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;五接线图-2&#34;&gt;五、接线图
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E7%AC%AC%E5%9B%9B%E6%AC%A1-20241014195110-jcajqtw.png&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E7%AC%AC%E5%9B%9B%E6%AC%A1-20241014195110-jcajqtw_hu6746893951138439870.png 480w, https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E7%AC%AC%E5%9B%9B%E6%AC%A1-20241014195110-jcajqtw_hu3336692427452824800.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第四次&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;六思考题-2&#34;&gt;六、思考题
+&lt;/h4&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;在电动机的主电路中已经装有熔断器，为什么还要再装热继电器？在照明线路及电热设备中，为什么一般只装熔断器而不再装热继电器？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;熔断器的作用是在线路中电流突然过大（如短路）时能切断线路，保护电器，防止事态进一步扩大；热继电器的作用是当电流长时间略大于预定值时（如电机长时间超负荷工作）能切断电路，保护电器安全。照明线路、电热设备的线路负载较为简单，一般熔断器就能完成这部分工作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是自锁、互锁？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自锁：通过自身触点通电后动作，来保持自身线圈通电的电路设计。&lt;/p&gt;
+&lt;p&gt;互锁：通过自身触点通电后动作，让另一线圈在自身得电的情况下不能得电。一般在对方线圈得电时自身也不能得电。&lt;/p&gt;
+&lt;p&gt;互锁在电路中一般用在两个设计功能互相冲突的元器件上，来防止误操作，避免两者同时启动造成事故，如电机的正反转控制中，正转控制与反转控制一般会用互锁相互关联避免同时正反转出现烧毁电机或短路的情况。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;讨论实验电路中的短路、过载和失压三种保护功能。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;短路保护：主要由熔断器完成。短路时， 电流会突然增大，熔断器会相应发热熔断切断电路。&lt;/p&gt;
+&lt;p&gt;过载保护：主要由热继电器完成。长时间过载会使得热继电器触点断开，切断电路。&lt;/p&gt;
+&lt;p&gt;失压保护：主要由接触器完成。电压不足时，接触器会断开，切断电路。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分析说明各实验电路的工作原理，总结他们的动作结果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;闭合QS，按SB2，KM1带电，（a.三个主触点闭合，电动机顺转； b.一个副触点闭合，自锁；c.一个副触点闭合，互锁），当撞击SQ1时， SQ1的常闭断开，KM1断电，SQ1 的常开闭合，KM2 带电，电机反转，离开 SQ1 后，撞击SQ2，同理，电机又变为顺转。若开始时，先按 SB3，则KM2带电，情况同理。按SB1，断电，电机不工作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;七实验总结-2&#34;&gt;七、实验总结
+&lt;/h4&gt;&lt;p&gt;本次实验基本顺利，虽然说没有实际用到行程控制的功能，但是对行程控制电路有了一个基本认知。接线过程相对上一次也更加顺利了，接线完成之后的debug也没有像之前那样毫无头绪，总体应该还是有进步的。&lt;/p&gt;
+&lt;h1 id=&#34;05-06-altium-designer电路设计-蓝牙小音箱diy&#34;&gt;05 06 Altium Designer电路设计 蓝牙小音箱DIY
+&lt;/h1&gt;&lt;h4 id=&#34;一实验目的-4&#34;&gt;一、实验目的
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;学习Altium Designer 软件的基本操作&lt;/li&gt;
+&lt;li&gt;学习利用Altium Designer 软件绘制电路图原理图&lt;/li&gt;
+&lt;li&gt;学习利用Altium Designer 软件绘制印刷电路图。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;二内容概述-4&#34;&gt;二、内容概述
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;印刷电路板&lt;/p&gt;
+&lt;p&gt;印刷电路板是组装电子元器件用的基板(底盘)，是在绝缘的基材上按设计的电路图形，形成点间连接以实现电子元器件之间的相互连接。由于它是采用电子印刷术制作的，故被称为“印刷”电路板，又称印制电路板、印刷线路板，PCB是印刷电路板(即Printed Circuit  Board)的缩写。 PCB 的主要功能是固定支撑各个电子元器件，并采用铜箔走线将各种元器件联接起来形成电流通路，起到中继传输作用，是电子产品的关键互连件。有单面板，双面板和多层板之分。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Altium Designer&lt;/p&gt;
+&lt;p&gt;是一个功能强大的通用电路板设计软件，简称AD。&lt;/p&gt;
+&lt;p&gt;主要功能有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;电路原理图设计：SCH、SCHLIB、各种文本编辑器；&lt;/li&gt;
+&lt;li&gt;印刷电路板设计：PCB、PCBLIB、电路板组件管理器；&lt;/li&gt;
+&lt;li&gt;FPGA 及逻辑器设计。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;主要特点是：功能强大，支持多国语言，完全兼容Protel各版本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PCB基础知识&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;电路板中常用各个层的含义&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toplayer: 顶层走线层(默认红色)&lt;/li&gt;
+&lt;li&gt;Bottomlayer: 底层走线层(默认蓝色)&lt;/li&gt;
+&lt;li&gt;TopOverlayer: 顶层丝印层，用于字符的丝网露印(默认黄色)&lt;/li&gt;
+&lt;li&gt;BottomOverlayer：(可选)底层丝印层&lt;/li&gt;
+&lt;li&gt;KeepOutlayer: 禁止层，用于定义PCB 板框&lt;/li&gt;
+&lt;li&gt;Multilayer: 穿透层(焊盘镀锡层)&lt;/li&gt;
+&lt;li&gt;MechanicalLayer1~4:机械层，用于尺寸标注等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;常用原件所在封装库的名称&lt;/p&gt;
+&lt;p&gt;PCB Footprints.PCBLlB：大多数常见元件的封装库，如贴片电阻、 直插电阻、电容、二、三极管，DIP 直插集成电路等，电位器等；&lt;/p&gt;
+&lt;p&gt;Transistors.PCBLlB：晶体管封装库；&lt;/p&gt;
+&lt;p&gt;各个厂家基本上都有自己的元件库；建议把常用的元件封装整理成单独的库文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Altium Designer 的绘图单位&lt;/p&gt;
+&lt;p&gt;Altium Designer 提供了两种绘图尺寸的单位：英制(imperial)和公制(Metric)，1000mil=25.4mm=1英寸&lt;/p&gt;
+&lt;p&gt;电阻、电容、集成电路等绝大多数器件的管脚间距是以英制单位定义的。&lt;/p&gt;
+&lt;p&gt;※单位切换:View/Toggle Units&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;三实验设备与器材-3&#34;&gt;三、实验设备与器材
+&lt;/h4&gt;&lt;p&gt;Altium Designer&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;四实验内容-4&#34;&gt;四、实验内容
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;电路原理图的设计&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;电路原理图的设计流程&lt;/li&gt;
+&lt;li&gt;原理图元件库的编辑&lt;/li&gt;
+&lt;li&gt;检查与复制保存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电路板（PCB）的设计&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;PCB绘图的基础知识&lt;/li&gt;
+&lt;li&gt;电路板的设计流程&lt;/li&gt;
+&lt;li&gt;元件放置和走线的原则&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;五实验任务&#34;&gt;五、实验任务
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;写出用AD软件画电路原理图的主要步骤（附上蓝牙小音箱的原理图）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;创建项目工程文件并保存&lt;/p&gt;
+&lt;p&gt;文件-新建-项目-PCB Project，创建后将其另存为以保存并修改项目名称。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在项目下新建原理图并保存&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设置文档属性&lt;/p&gt;
+&lt;p&gt;在图纸上双击图纸的边框以打开文件属性选项&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查看元件集成库，自建HT6872、MH-M18、KA2284的元件库并将其修改为自己需要的元件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;放置元件并双击元件以修改其属性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;根据原理图进行电气连接&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;编译原理图，编译无误后检查封装管理器，确保器件的标识、注释栏无空白&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保存，生成网格表文件，选中整张原理图并复制到Word内，自行拷贝保存。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E5%9B%BE%E7%89%871-20241016153156-pbqzpk9.png&#34;
+	width=&#34;1129&#34;
+	height=&#34;800&#34;
+	srcset=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E5%9B%BE%E7%89%871-20241016153156-pbqzpk9_hu2448103379549571512.png 480w, https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/%E5%9B%BE%E7%89%871-20241016153156-pbqzpk9_hu12111276037869106089.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图片1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;338px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;写出用AD画PCB图的主要步骤（附上蓝牙小音箱的PCB图）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;建立PCB文件并保存到自己的文件&lt;/li&gt;
+&lt;li&gt;加载库，拷贝PCB库Speaker.PcbLib到文件夹&lt;/li&gt;
+&lt;li&gt;对原理图文件的元件进行封装&lt;/li&gt;
+&lt;li&gt;排好PCB图中的元件位置，定义电路板的大小&lt;/li&gt;
+&lt;li&gt;参考原理图进行布线，根据具体情况使用Interactive Routing或者Line布线&lt;/li&gt;
+&lt;li&gt;保存，并将PCB图复制粘贴到Word文档中，拷贝保存。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/image-20241025163628-2j1n9u9.png&#34;
+	width=&#34;693&#34;
+	height=&#34;792&#34;
+	srcset=&#34;https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/image-20241025163628-2j1n9u9_hu10708752903205013391.png 480w, https://breadcar.github.io/p/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/assets/image-20241025163628-2j1n9u9_hu2467997883868852456.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;87&#34;
+		data-flex-basis=&#34;210px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;软件使用总结&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在画图前要先建好工程和工程所在的文件夹，否则库导入会出问题&lt;/li&gt;
+&lt;li&gt;画PCB时尽可能减少锐角，连线时自己逻辑清晰、连线有一定顺序&lt;/li&gt;
+&lt;li&gt;画原理图时注意标准，接线时保证其电气连接完整&lt;/li&gt;
+&lt;li&gt;画图注意规范，否则后续容易出现缺少飞线等麻烦&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;六实验总结-1&#34;&gt;六、实验总结
+&lt;/h4&gt;&lt;p&gt;本次实验为软件使用，本身没有什么难度，加之老师将相对比较难的构建元件库的工作基本都完成了，显的整个过程更加类似于看着说明书搭积木？（其实就我而言我会希望难度更大一点）&lt;/p&gt;
+&lt;p&gt;其实我更期待下一节课的焊接和组装，希望能顺利完成小音箱的制作。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
