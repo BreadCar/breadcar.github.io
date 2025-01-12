@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Category: 面包片 - 面包车的小破站">
+<link rel="stylesheet" href="/scss/style.min.b41fbeb1758861b170a462ca5c5b93b973caa976a8f1c39fb877a49158ef60fb.css"><meta property='og:title' content="Category: 面包片 - 面包车的小破站">
 <meta property='og:description' content="最擅长的事情是浪费时间。">
 <meta property='og:url' content='https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/'>
 <meta property='og:site_name' content='面包车的小破站'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-11T21:07:12&#43;08:00 '/><meta property='og:image' content='https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/cover.jpg' />
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-12T18:28:55&#43;08:00 '/><meta property='og:image' content='https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/cover.jpg' />
 <meta name="twitter:title" content="Category: 面包片 - 面包车的小破站">
 <meta name="twitter:description" content="最擅长的事情是浪费时间。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/cover.jpg' /><link rel="alternate" type="application/rss&#43;xml" href="https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/index.xml">
@@ -511,6 +511,52 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            let elementsByClassName = document.querySelectorAll(".open");
+            if (elementsByClassName.length > 0) {
+                elementsByClassName.forEach((ul) => {
+                    ul.classList.remove("open")
+                })
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
 </script>
 
     </body>

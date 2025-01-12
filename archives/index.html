@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://breadcar.github.io/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Archives">
+<link rel="stylesheet" href="/scss/style.min.b41fbeb1758861b170a462ca5c5b93b973caa976a8f1c39fb877a49158ef60fb.css"><meta property='og:title' content="Archives">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://breadcar.github.io/archives/'>
 <meta property='og:site_name' content='面包车的小破站'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2019-05-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2019-05-28T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2019-05-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-08T16:08:56&#43;08:00'/>
 <meta name="twitter:title" content="Archives">
 <meta name="twitter:description" content="">
     <link rel="shortcut icon" href="/favicon1.ico" />
@@ -292,54 +292,6 @@
                 
                     
 <article class="has-image">
-    <a href="/categories/%E9%9D%A2%E5%8C%85%E7%89%87/">
-        
-        
-            <div class="article-image">
-                <img src="/categories/%E9%9D%A2%E5%8C%85%E7%89%87/cover.277b12d65a3de2bddd94833bef3ba79b_hu16086255677724873954.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 面包片"
-                        data-key="面包片" 
-                        data-hash="md5-J3sS1lo94r3dlIM77zunmw==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">面包片</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="has-image">
-    <a href="/categories/%E9%9D%A2%E5%8C%85%E5%B1%91/">
-        
-        
-            <div class="article-image">
-                <img src="/categories/%E9%9D%A2%E5%8C%85%E5%B1%91/cover.ba1c51067e369fe8b5f546c4e4f952a0_hu11566397616390713276.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 面包屑"
-                        data-key="面包屑" 
-                        data-hash="md5-uhxRBn42n&#43;i19UbE5PlSoA==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">面包屑</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="has-image">
     <a href="/categories/%E5%A4%A7%E9%9D%A2%E5%8C%85/">
         
         
@@ -381,6 +333,54 @@
 
         <div class="article-details">
             <h2 class="article-title">航行日志</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="has-image">
+    <a href="/categories/%E9%9D%A2%E5%8C%85%E5%B1%91/">
+        
+        
+            <div class="article-image">
+                <img src="/categories/%E9%9D%A2%E5%8C%85%E5%B1%91/cover.ba1c51067e369fe8b5f546c4e4f952a0_hu11566397616390713276.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 面包屑"
+                        data-key="面包屑" 
+                        data-hash="md5-uhxRBn42n&#43;i19UbE5PlSoA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">面包屑</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="has-image">
+    <a href="/categories/%E9%9D%A2%E5%8C%85%E7%89%87/">
+        
+        
+            <div class="article-image">
+                <img src="/categories/%E9%9D%A2%E5%8C%85%E7%89%87/cover.277b12d65a3de2bddd94833bef3ba79b_hu16086255677724873954.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 面包片"
+                        data-key="面包片" 
+                        data-hash="md5-J3sS1lo94r3dlIM77zunmw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">面包片</h2>
         </div>
     </a>
 </article>
@@ -560,6 +560,52 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            let elementsByClassName = document.querySelectorAll(".open");
+            if (elementsByClassName.length > 0) {
+                elementsByClassName.forEach((ul) => {
+                    ul.classList.remove("open")
+                })
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
 </script>
 
     </body>
