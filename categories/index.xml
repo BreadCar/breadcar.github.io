@@ -13,7 +13,7 @@
         <pubDate>Sat, 11 Jan 2025 21:07:12 +0800</pubDate>
         
         <guid>https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/</guid>
-        <description></description>
+        <description>&lt;img src="https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E7%89%87/cover.jpg" alt="Featured image of post 面包片" /&gt;</description>
         </item>
         <item>
         <title>面包屑</title>
@@ -21,15 +21,23 @@
         <pubDate>Sat, 11 Jan 2025 21:01:04 +0800</pubDate>
         
         <guid>https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E5%B1%91/</guid>
-        <description></description>
+        <description>&lt;img src="https://breadcar.github.io/categories/%E9%9D%A2%E5%8C%85%E5%B1%91/cover.png" alt="Featured image of post 面包屑" /&gt;</description>
         </item>
         <item>
-        <title>Test</title>
-        <link>https://breadcar.github.io/categories/test/</link>
+        <title>大面包</title>
+        <link>https://breadcar.github.io/categories/%E5%A4%A7%E9%9D%A2%E5%8C%85/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://breadcar.github.io/categories/test/</guid>
-        <description>&lt;img src="https://breadcar.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://breadcar.github.io/categories/%E5%A4%A7%E9%9D%A2%E5%8C%85/</guid>
+        <description>&lt;img src="https://breadcar.github.io/categories/%E5%A4%A7%E9%9D%A2%E5%8C%85/cover.jpg" alt="Featured image of post 大面包" /&gt;</description>
+        </item>
+        <item>
+        <title>航行日志</title>
+        <link>https://breadcar.github.io/categories/%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://breadcar.github.io/categories/%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/</guid>
+        <description>&lt;img src="https://breadcar.github.io/categories/%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/cover.jpg" alt="Featured image of post 航行日志" /&gt;</description>
         </item>
         
     </channel>
