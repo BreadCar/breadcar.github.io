@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://breadcar.github.io/categories/%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/'>
 
-<link rel="stylesheet" href="/scss/style.min.8d934ad4bc016d1815207ceb7e43fb3eb6fedac5e3d051f641d6ce55cf579125.css"><meta property='og:title' content="Category: 航行日志 - 面包车的小破站">
+<link rel="stylesheet" href="/scss/style.min.c0fa6248ddd51b97f27ff2aa4483d374a7af3083e58db6c7819539f071016c37.css"><meta property='og:title' content="Category: 航行日志 - 面包车的小破站">
 <meta property='og:description' content="最擅长的事情是浪费时间。">
 <meta property='og:url' content='https://breadcar.github.io/categories/%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/'>
 <meta property='og:site_name' content='面包车的小破站'>
@@ -535,6 +535,30 @@
         });
     }
     initTocHide()
+</script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script
+    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+    crossorigin="anonymous"
+></script>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+    crossorigin="anonymous"
+/>
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
 </script>
 
     </body>
